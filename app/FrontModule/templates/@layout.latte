@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+{**
+* @param string   $basePath web base path
+* @param array    $flashes  flash messages
+*}
+<html lang="cs" xmlns:n="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+
+
+    <link rel="shortcut icon" href="{$basePath}/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{ifset title}{include title|striptags} | {/ifset}SOS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Own CSS -->
+    <link href="{$basePath}/css/front.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    {block scripts}
+    <!-- jQuery -->
+    <script src="{$basePath}/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{$basePath}/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+    {/block}
+
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="container-fluid stave-lines">
+        <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6">
+            <a n:href="Homepage:default">
+                <img src="{$basePath}/vectors/corner-logo.svg" class="corner-logo" />
+            </a>
+        </div>
+        <div class="col-lg-9 col-md-10 col-sm-4 col-xs-6 menu">
+            <div class="container">
+                <div class="row">
+                    {foreach $menus as $menu}
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 menu-item">
+
+                        {if $menu->url}
+                            <a href="{$menu->url}">
+                        {elseif $menu->article}
+                            <a n:href="Article:show $menu->article->id">
+                        {else}
+                            <a href="#">
+                        {/if}
+                            {$menu->name}
+                        </a>
+                    </div>
+                    {/foreach}
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-12 col-xs-12 social-media">
+            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
+                YOUTUBE
+            </div>
+            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
+                FACEBOOK
+            </div>
+            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
+                MAIL
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+{block content}{/block}
+
+
+<div class="clearfix"></div>
+<div class="container-fluid stave-lines menu">
+    <div class="row">
+        <div class="col-lg-12 menu-item scroll-on-top">
+            <a href="#top" class="pull-right">Nahoru</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>Copyright &copy; Vladimír Mlázovský 2015</p>
+    </div>
+</footer>
+
+<script>
+    $(document).ready(function() {
+        $("a[href='#top']").click(function() {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    });
+</script>
+
+</body>
+</html>

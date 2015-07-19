@@ -1,0 +1,134 @@
+/* ---------------------------------------
+ * SOS design
+ */
+
+* {
+    font-family: 'Georgia', serif;
+}
+
+.stave-lines {
+    background-color: white;
+    background-image: url('../img/stave-lines-bg.png');
+    background-repeat: repeat-x;
+    background-size: auto 120px;
+    height: 120px;
+}
+
+img.corner-logo {
+    margin-top: 8px;
+    height: 110px;background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.menu {
+    font-size: 18px;
+}
+
+.menu .menu-item {
+    text-align: center;
+}
+
+.scroll-on-top {
+    padding-top: 50px
+}
+
+@media (min-width: 992px) {
+    .menu {
+        padding-top: 50px;
+    }
+    .scroll-on-top {
+        padding-top: 0px
+    }
+}
+
+
+.menu .menu-item a {
+    background-color: white;
+    padding: 2px 5px 2px 10px;
+    line-height: 24px;
+    color: rgb(107, 192, 192);
+    white-space: nowrap;
+    font-family: 'Wellfleet', 'Arial', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .social-media-item:nth-child(1) {
+        margin-top: 10px;
+    }
+    .social-media-item:nth-child(2) {
+        margin-top: 50px;
+    }
+    .social-media-item:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+
+.main-logo {
+    margin-top: 20px;
+}
+
+.motto {
+    font-family: 'Wellfleet', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #6bc0c0;
+    text-align: center;
+}
+
+.motto p {
+    font-family: 'Wellfleet', 'Arial', sans-serif;
+    color: #6bc0c0;
+    font-size: 11px;
+}
+
+.motto h2 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #007576;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .motto {
+        letter-spacing: 1px;
+    }
+    .motto h2 {
+        font-size: 20px;
+    }
+    .motto p {
+        font-size: 12px;
+    }
+}
+
+.article {
+    margin-top: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(197, 230, 235);
+    font-family: 'Georgia', serif;
+    line-height: 17px;
+    color: rgb(0, 117, 117);
+    letter-spacing: 0.3px;
+    font-size: 12px;
+}
+
+.article img {
+    margin-bottom:10px;
+    margin-right: 10px;
+    padding: 2px 2px 2px 2px;
+    background-color: white;
+    border: 1px solid rgb(0, 192, 192);
+}
+
+.article h1, .article h2, .article h3 {
+    color: rgb(226, 9, 25);
+}
+
+.article h1 {
+    font-size: 15px;
+}
+.article h2 {
+    font-size: 13px;
+}
+.article h3 {
+    font-size: 12px;
+}
