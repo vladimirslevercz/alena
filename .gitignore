@@ -1,0 +1,5 @@
+/log
+/temp
+/.idea
+/*.DS_Store
+/app/config/config.local.neon
