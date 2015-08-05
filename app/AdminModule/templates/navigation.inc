@@ -27,6 +27,10 @@
 					</ul>
 				</li>
 
+				<li><a n:href="Photo:default">Fotky</a></li>
+
+				<li><a n:href="User:default">Uživatelé</a></li>
+
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ext. nástroje <span class="caret"></span></a>
 					<ul class="dropdown-menu">

@@ -53,13 +53,13 @@
     </table>
 
     <div class="pull-right">
-        {if $page > 1}
+        {if $page > 0}
         <a n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
         {else}
         <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
         {/if}
 
-        {$page*50 + 1} až {($page+1)*50 + 1}
+        {$page*50 + 1} až {($page+1)*50}
         <a n:href="default ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
     </div>
 {else}

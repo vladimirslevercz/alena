@@ -78,6 +78,14 @@ class UserManager extends Nette\Object implements Nette\Security\IAuthenticator
 		}
 	}
 
+	public function updatePassword($username, $newPassword)
+	{
+		$this->database->where(self::COLUMN_NAME . " = ?", $username)->update(
+			array(
+				self::COLUMN_PASSWORD_HASH => Passwords::hash($newPassword)
+			)
+		);
+	}
 }
 
 

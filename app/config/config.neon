@@ -26,6 +26,7 @@ services:
 	article: App\Model\Article
 	manufacturer: App\Model\Manufacturer
 	goods: App\Model\Goods
+	photo: App\Model\Photo
 	category: App\Model\Category
 	menu: App\Model\Menu
 	database: @Nette\Database\Context
