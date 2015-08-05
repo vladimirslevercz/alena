@@ -24,6 +24,9 @@ services:
 	- App\Forms\SignFormFactory
 	router: App\RouterFactory::createRouter
 	article: App\Model\Article
+	manufacturer: App\Model\Manufacturer
+	goods: App\Model\Goods
+	category: App\Model\Category
 	menu: App\Model\Menu
 	database: @Nette\Database\Context
 

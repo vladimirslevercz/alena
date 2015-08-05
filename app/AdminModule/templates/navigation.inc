@@ -17,7 +17,15 @@
 		<div class="collapse navbar-collapse" id="main-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a n:href="Article:default">Články</a></li>
-				<li><a n:href="Menu:default">Meníčko</a></li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Zboží<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a n:href="Manufacturer:default">Výrobci</a></li>
+						<li><a n:href="Category:default">Kategorie</a></li>
+						<li><a n:href="Goods:default">Výrobky</a></li>
+					</ul>
+				</li>
 
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ext. nástroje <span class="caret"></span></a>
