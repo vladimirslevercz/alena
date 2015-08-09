@@ -143,7 +143,7 @@ class GoodsPresenter extends BasePresenter
 		if (!$item) {
 			$this->error('Data pod ID '. $id .' nebyla nalezena v databázi.', 404);
 		}
-		$item->update(['recommended' => !$item->recommended]);
+		$item->update(array('recommended' => !$item->recommended));
 		$this->flashMessage('Doporučení výrobku '. $item->name ." bylo změněno.", 'success');
 		$this->redirect('default');
 	}

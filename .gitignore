@@ -3,3 +3,4 @@
 /.idea
 /*.DS_Store
 /app/config/config.local.neon
+/www/content/*

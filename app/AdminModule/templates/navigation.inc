@@ -27,8 +27,6 @@
 					</ul>
 				</li>
 
-				<li><a n:href="Photo:default">Fotky</a></li>
-
 				<li><a n:href="User:default">Uživatelé</a></li>
 
 				<li class="dropdown">
