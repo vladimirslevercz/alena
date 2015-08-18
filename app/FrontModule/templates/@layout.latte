@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{ifset title}{include title|striptags} | {/ifset}SOS</title>
+    <title>{ifset title}{include title|striptags} | {/ifset}Alena</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet">
@@ -53,41 +53,26 @@
 <body>
 
 <!-- Navigation -->
-<div class="container-fluid stave-lines">
+<div class="container-fluid">
         <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6">
             <a n:href="Homepage:default">
-                <img src="{$basePath}/vectors/corner-logo.svg" class="corner-logo" />
+                Alena LOGO
+                <!--img src="{$basePath}/vectors/corner-logo.svg" class="corner-logo" -->
             </a>
         </div>
         <div class="col-lg-9 col-md-10 col-sm-4 col-xs-6 menu">
-            <div class="container">
-                <div class="row">
-                    {foreach $menus as $menu}
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 menu-item">
-
-                        {if $menu->url}
-                            <a href="{$menu->url}">
-                        {elseif $menu->article}
-                            <a n:href="Article:show $menu->article->id">
-                        {else}
-                            <a href="#">
-                        {/if}
-                            {$menu->name}
-                        </a>
-                    </div>
-                    {/foreach}
+                {foreach $articles as $menu}
+                    {if $menu->url}
+                        <a href="{$menu->url}">
+                    {elseif $menu->menu}
+                        <a n:href="Article:show $menu->article->id">
+                    {else}
+                        <a href="#">
+                    {/if}
+                        {$menu->name}
+                    </a>
                 </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-12 col-xs-12 social-media">
-            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
-                YOUTUBE
-            </div>
-            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
-                FACEBOOK
-            </div>
-            <div class="col-lg-4 col-md-1 col-sm-1 col-xs-4 social-media-item">
-                MAIL
+                {/foreach}
             </div>
         </div>
     </div>

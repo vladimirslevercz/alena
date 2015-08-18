@@ -12,6 +12,7 @@
     <table class="table table-bordered table-responsive">
         <thead>
             <th>Název</th>
+			<th>Menu</th>
             <th>Vytvořeno</th>
             <th>Annotace</th>
             <th>Akce</th>
@@ -23,6 +24,10 @@
                     {$a->name}
                 </td>
                 <td>
+                    {$a->menu}
+					{if $a->url}<br /><i href="{$a->url}"><i class="glyphicon glyphicon-link"></i></a>{/if}
+                </td>
+                <td>
                     {$a->created_at|date:'H:i j.n.Y'}
                 </td>
                 <td>
@@ -31,6 +36,7 @@
                 <td>
                     <a n:href="edit $a->id" class="btn btn-warning">Upravit</a>
                     <a n:href="delete $a->id" class="btn btn-danger">Smazat</a>
+                    <a n:href=":Front:Article:show $a->id" class="btn btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
                 </td>
             </tr>
             {/foreach}

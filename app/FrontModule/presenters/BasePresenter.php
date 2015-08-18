@@ -12,13 +12,13 @@ use Nette,
 abstract class BasePresenter extends Nette\Application\UI\Presenter
 {
 	/**
-	 * @var Model\Menu
+	 * @var Model\Article
 	 * @inject
 	 */
-	public $menu;
+	public $article;
 
 	public function beforeRender()
 	{
-		$this->template->menus = $this->menu->where('menu_id', null);
+		$this->template->articles = $this->article->where('menu IS NOT NULL');
 	}
 }

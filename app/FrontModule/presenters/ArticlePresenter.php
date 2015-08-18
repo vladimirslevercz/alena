@@ -20,11 +20,6 @@ class ArticlePresenter extends BasePresenter
 	 */
 	public $article;
 
-	public function renderDefault()
-	{
-
-	}
-
 	public function renderShow($id) {
 		$this->template->article = $this->article->get($id);
 	}

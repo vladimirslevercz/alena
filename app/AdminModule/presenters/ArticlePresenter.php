@@ -47,6 +47,11 @@ class ArticlePresenter extends BasePresenter
 		$form->addText('name', 'Název článku:')
 			->setRequired();
 
+		$form->addText('menu', 'Položka menu:');
+
+		$form->addText('url', 'Odkaz jinam než na svůj')
+			->setType('url');
+
 		$form->addTextArea('annotation', 'Annotace:')
 			->setAttribute('class', 'tinyMCE');
 
