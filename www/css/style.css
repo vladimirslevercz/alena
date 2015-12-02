@@ -37,3 +37,9 @@ form .error {
 	color: #D00;
 	font-weight: bold;
 }
+
+.jumbotron-orange {
+	background-color: chocolate;
+	color: #003366;
+
+}

@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Photo/create.latte" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Photo/edit.latte" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/content/author/vml.jpg" afterPath="" />
+    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="Pridana administrace uctu">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (13).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (13).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (17).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (17).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (18).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (18).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (22).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (22).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (23).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (23).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (5).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (5).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (6).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (6).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (7).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (7).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (1).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (1).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (2).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (2).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (3).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (3).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040290.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040290.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040291.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040291.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040292.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040292.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040293.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040293.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040294.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040294.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040295.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040295.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040349.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040349.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040350.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040350.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040353.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040353.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040354.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040354.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/logo_alena.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/logo_alena.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vectors/alena-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/netteForms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/noisy-texture.png" afterPath="$PROJECT_DIR$/www/img/noisy-texture.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/stave-lines-bg.png" afterPath="$PROJECT_DIR$/www/img/stave-lines-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox/.gitignore" afterPath="$PROJECT_DIR$/sandbox/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/.htaccess.bak" afterPath="$PROJECT_DIR$/www/.htaccess.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Goods.php" afterPath="$PROJECT_DIR$/app/model/Goods.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Photo.php" afterPath="$PROJECT_DIR$/app/model/Photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/navigation.inc" afterPath="$PROJECT_DIR$/app/AdminModule/templates/navigation.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/animate.css" afterPath="$PROJECT_DIR$/www/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/vectors/corner-logo.svg" afterPath="$PROJECT_DIR$/www/vectors/corner-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/front.css" afterPath="$PROJECT_DIR$/www/css/front.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ingress.css" afterPath="$PROJECT_DIR$/www/css/ingress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.sql" afterPath="$PROJECT_DIR$/init.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/init.sql" afterPath="$PROJECT_DIR$/app/init.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/vectors/main-logo.svg" afterPath="$PROJECT_DIR$/www/vectors/main-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alena.iws" />
@@ -44,7 +112,7 @@
       <file leaf-file-name="PhotoPresenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.09804">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
               <folding />
             </state>
@@ -54,7 +122,7 @@
       <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.166666">
+            <state vertical-scroll-proportion="0.0">
               <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding />
             </state>
@@ -64,18 +132,18 @@
       <file leaf-file-name="navigation.inc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4050465">
-              <caret line="86" column="54" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
+            <state vertical-scroll-proportion="-7.8333335">
+              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
               <folding>
                 <element signature="e#28#54#0#PHP" expanded="true" />
               </folding>
@@ -87,7 +155,17 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44278607">
+              <caret line="109" column="54" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -96,7 +174,7 @@
       <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding />
             </state>
@@ -127,7 +205,6 @@
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Article/edit.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Category/edit.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/CategoryPresenter.php" />
-        <option value="$PROJECT_DIR$/app/init.sql" />
         <option value="$PROJECT_DIR$/app/model/UserManager.php" />
         <option value="$PROJECT_DIR$/app/config/config.neon" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/User/create.latte" />
@@ -140,11 +217,12 @@
         <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Photo/create.latte" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/navigation.inc" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php" />
         <option value="$PROJECT_DIR$/app/model/Photo.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/init.sql" />
       </list>
     </option>
   </component>
@@ -388,7 +466,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
+    <property name="SearchEverywhereHistoryKey" value="ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -485,9 +563,8 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27825466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -496,6 +573,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -558,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,20 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9111969">
-          <caret line="200" column="59" selection-start-line="200" selection-start-column="59" selection-end-line="200" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/User/create.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -742,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/create.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.333333">
@@ -887,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.166666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
           <folding />
         </state>
@@ -895,7 +945,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding />
         </state>
@@ -903,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding />
         </state>
@@ -911,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.09804">
+        <state vertical-scroll-proportion="0.0">
           <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
           <folding />
         </state>
@@ -919,11 +969,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4050465">
-          <caret line="86" column="54" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
+        <state vertical-scroll-proportion="-7.8333335">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
           <folding>
             <element signature="e#28#54#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2239382">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44278607">
+          <caret line="109" column="54" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

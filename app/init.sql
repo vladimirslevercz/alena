@@ -100,13 +100,14 @@ CREATE TABLE `goods` (
   `stock` int(11) NOT NULL,
   `recommended` tinyint(4) NOT NULL,
   `manufacturer_id` int(11) DEFAULT NULL,
+  `price` int(11) NOT NULL DEFAULT '0',
+  `showPrice` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `category_id` (`category_id`),
   KEY `manufcturer_id` (`manufacturer_id`),
   CONSTRAINT `goods_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`) ON DELETE SET NULL,
   CONSTRAINT `goods_ibfk_2` FOREIGN KEY (`manufacturer_id`) REFERENCES `manufacturer` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 LOCK TABLES `goods` WRITE;
 /*!40000 ALTER TABLE `goods` DISABLE KEYS */;
 

@@ -1,6 +1,7 @@
 /log
 /temp
+.idea
 /.idea
-/*.DS_Store
+*.DS_Store
 /app/config/config.local.neon
 /www/content/*

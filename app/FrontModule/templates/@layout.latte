@@ -3,7 +3,7 @@
 * @param string   $basePath web base path
 * @param array    $flashes  flash messages
 *}
-<html lang="cs" xmlns:n="http://www.w3.org/1999/xhtml">
+<html lang="cs" xmlns:n="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
@@ -19,76 +19,88 @@
 
     <title>{ifset title}{include title|striptags} | {/ifset}Alena</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Wellfleet&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-    <!-- Own CSS -->
-    <link href="{$basePath}/css/front.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     {block scripts}
-    <!-- jQuery -->
-    <script src="{$basePath}/js/jquery.js"></script>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{$basePath}/js/bootstrap.min.js"></script>
+	<script src="{$basePath}/js/jquery-1.11.3.min.js"></script>
+	<script src="{$basePath}/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+
     {/block}
+
+	<!-- Bootstrap Core CSS -->
+	<link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- Own CSS -->
+	<link href="{$basePath}/css/front.css" rel="stylesheet">
 
 
 </head>
 
 <body>
 
-<!-- Navigation -->
-<div class="container-fluid">
-        <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6">
-            <a n:href="Homepage:default">
-                Alena LOGO
-                <!--img src="{$basePath}/vectors/corner-logo.svg" class="corner-logo" -->
-            </a>
-        </div>
-        <div class="col-lg-9 col-md-10 col-sm-4 col-xs-6 menu">
-                {foreach $articles as $menu}
-                    {if $menu->url}
-                        <a href="{$menu->url}">
-                    {elseif $menu->menu}
-                        <a n:href="Article:show $menu->article->id">
-                    {else}
-                        <a href="#">
-                    {/if}
-                        {$menu->name}
-                    </a>
-                </div>
-                {/foreach}
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="container">
 
-<div class="clearfix"></div>
-{block content}{/block}
+		<!-- Static navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" n:href="Homepage:default">
+						<img src="{$basePath}/vectors/alena-logo.svg" style="height:1em" />
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Nav header</li>
+								<li><a href="#">Separated link</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+						<li><a href="../navbar-static-top/">Static top</a></li>
+						<li><a href="../navbar-fixed-top/">Fixed top</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+
+    <div class="clearfix"></div>
+	<div id="main-content"
+		{block jumbotron}{/block}
+
+		<div class="thumbnail">
+			{block content}{/block}
+		</div>
 
 
-<div class="clearfix"></div>
-<div class="container-fluid stave-lines menu">
-    <div class="row">
-        <div class="col-lg-12 menu-item scroll-on-top">
-            <a href="#top" class="pull-right">Nahoru</a>
-        </div>
-    </div>
+    <div class="clearfix"></div>
 </div>
 
 <!-- Footer -->
@@ -98,14 +110,7 @@
     </div>
 </footer>
 
-<script>
-    $(document).ready(function() {
-        $("a[href='#top']").click(function() {
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-            return false;
-        });
-    });
-</script>
+
 
 <!-- Google Analytics -->
 <script>

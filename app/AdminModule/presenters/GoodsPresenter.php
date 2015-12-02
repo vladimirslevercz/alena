@@ -89,6 +89,15 @@ class GoodsPresenter extends BasePresenter
 		$form->addText('stock', 'Kusů skladem')->setType('number')->setDefaultValue(0)
 			->addRule($form::RANGE, 'Zadejte celé kladné číslo nebo nulu.', array(0, 1000000000));
 
+		$form->addCheckbox('showPrice', 'Zobrazovat cenu?')
+			->addCondition($form::EQUAL, TRUE)
+				->toggle('price');
+
+		$form->addText('price', 'Cena za ks')->setType('number')->setDefaultValue(0)
+			->setOption('id', 'price')
+			->addRule($form::RANGE, 'Cena nemůže být záporná.', array(0, 1000000000));
+
+
 		$form->addCheckbox('recommended', 'Je zboží doporučené?');
 
 		$form->addTextArea('description', 'Popis:')
