@@ -1,0 +1,36 @@
+{block jumbotron}
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="container jumbotron-orange">
+		<h1 n:block="title">Katalog <small>{$filterName}</small></h1>
+	</div>
+{/block}
+
+{block content}
+
+	<div class="col-lg-3 col-md-4 col-md-4 col-xs-12">
+		<div class="categories">
+			<ul>
+				<li n:foreach="$categories as $category">
+					<a n:href="filter $category->id, null" {if $category->id == $selectedCategoryId} class="active"{/if}>{$category->name}</a>
+					<ul n:if="count($category->related('category.parent'))">
+						<li n:foreach="$category->related('category.parent') as $subcategory">
+							<a n:href="filter $subcategory->id, null" {if $subcategory->id == $selectedCategoryId} class="active"{/if}>{$subcategory->name}</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="manufacturers">
+			<ul>
+				<li n:foreach="$manufacturers as $manufacturer">
+					<a n:href="filter null, $manufacturer->id" {if $category->id == $selectedManufacturerId} class="active"{/if}>{$manufacturer->name}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	{include 'goods.inc' }
+
+	<div class="clearfix"></div>
+
+{/block}

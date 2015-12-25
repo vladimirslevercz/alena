@@ -1,86 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="Pridana administrace uctu">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (13).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (13).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (17).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (17).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (18).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (18).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (22).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (22).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (23).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (23).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (5).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (5).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (6).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (6).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Bajcovna pohledy (7).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Bajcovna pohledy (7).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (2).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (2).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/Dílny (3).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/Dílny (3).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040290.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040290.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040291.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040291.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040292.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040292.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040293.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040293.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040294.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040294.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040295.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040295.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040349.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040349.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040350.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040350.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040353.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040353.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/P1040354.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/P1040354.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/fotky Vláďa/logo_alena.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/foto/logo_alena.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vectors/alena-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/netteForms.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/noisy-texture.png" afterPath="$PROJECT_DIR$/www/img/noisy-texture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/stave-lines-bg.png" afterPath="$PROJECT_DIR$/www/img/stave-lines-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox/.gitignore" afterPath="$PROJECT_DIR$/sandbox/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/.htaccess.bak" afterPath="$PROJECT_DIR$/www/.htaccess.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
+    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="Velke zmeny v designu a wip na katalogu.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/favicon.ico" afterPath="$PROJECT_DIR$/www/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Goods.php" afterPath="$PROJECT_DIR$/app/model/Goods.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/animate.css" afterPath="$PROJECT_DIR$/www/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/vectors/corner-logo.svg" afterPath="$PROJECT_DIR$/www/vectors/corner-logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/front.css" afterPath="$PROJECT_DIR$/www/css/front.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ingress.css" afterPath="$PROJECT_DIR$/www/css/ingress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.sql" afterPath="$PROJECT_DIR$/init.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/init.sql" afterPath="$PROJECT_DIR$/app/init.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/vectors/main-logo.svg" afterPath="$PROJECT_DIR$/www/vectors/main-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/netteForms.min.js" afterPath="$PROJECT_DIR$/www/js/netteForms.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alena.iws" />
@@ -119,63 +52,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
+      <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+            <state vertical-scroll-proportion="1.4264151">
+              <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.inc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
+      <file leaf-file-name="ingress.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/ingress.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8333335">
-              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-              <folding>
-                <element signature="e#28#54#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44278607">
-              <caret line="109" column="54" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+              <folding>
+                <element signature="e#192#210#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatalogPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-42.666668">
+              <caret line="69" column="170" selection-start-line="69" selection-start-column="170" selection-end-line="69" selection-end-column="170" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+              <caret line="8" column="157" selection-start-line="8" selection-start-column="157" selection-end-line="8" selection-end-column="157" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -212,9 +165,6 @@
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/UserPresenter.php" />
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
         <option value="$PROJECT_DIR$/app/bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/config/config.local.neon" />
-        <option value="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
-        <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Photo/create.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/navigation.inc" />
@@ -223,6 +173,20 @@
         <option value="$PROJECT_DIR$/app/model/Photo.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/init.sql" />
+        <option value="$PROJECT_DIR$/app/config/config.local.neon" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php" />
+        <option value="$PROJECT_DIR$/www/js/netteForms.min.js" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
+        <option value="$PROJECT_DIR$/www/css/ingress.css" />
+        <option value="$PROJECT_DIR$/www/css/front.css" />
       </list>
     </option>
   </component>
@@ -298,166 +262,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FrontModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Photo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -466,12 +270,13 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
+    <property name="SearchEverywhereHistoryKey" value="fron&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;front&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;naviga&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc&#10;front.&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;conf&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/config/config.local.neon&#10;ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -555,19 +360,35 @@
       <option name="project" value="LOCAL" />
       <updated>1438809310834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pridana cena zbozi.">
+      <created>1449061710107</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449061710107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23748212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,7 +401,6 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -602,7 +422,9 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="Pridana administrace zboží." />
     <MESSAGE value="Pridana administrace uctu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pridana administrace uctu" />
+    <MESSAGE value="Pridana cena zbozi." />
+    <MESSAGE value="Velke zmeny v designu a wip na katalogu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Velke zmeny v designu a wip na katalogu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,96 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Manufacturer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/ManufacturerPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-56.0">
-          <caret line="84" column="123" selection-start-line="84" selection-start-column="123" selection-end-line="84" selection-end-column="123" />
-          <folding>
-            <element signature="e#46#68#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Manufacturer/create.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Manufacturer/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Category/create.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6666667">
@@ -726,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.820513">
           <caret line="319" column="20" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,18 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/User/edit.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.041025642">
           <caret line="41" column="55" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,10 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="39" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="39" />
-          <folding>
-            <element signature="e#6#83#0#PHP" expanded="false" />
-            <element signature="e#124#146#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,14 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="141" column="38" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -879,35 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.166666">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71282053">
-          <caret line="48" column="141" selection-start-line="48" selection-start-column="141" selection-end-line="48" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/create.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
           <caret line="66" column="47" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5897436">
           <caret line="1029" column="9" selection-start-line="1029" selection-start-column="9" selection-end-line="1029" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,23 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.333333">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,6 +619,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2239382">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="77" selection-start-line="115" selection-start-column="77" selection-end-line="115" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44754317">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.833333">
+          <caret line="38" column="114" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/netteForms.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="107" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="107" />
           <folding />
         </state>
       </provider>
@@ -967,36 +724,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8333335">
-          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="157" selection-start-line="8" selection-start-column="157" selection-end-line="8" selection-end-column="157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-42.666668">
+          <caret line="69" column="170" selection-start-line="69" selection-start-column="170" selection-end-line="69" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
           <folding>
-            <element signature="e#28#54#0#PHP" expanded="true" />
+            <element signature="e#192#210#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2239382">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.sql">
+    <entry file="file://$PROJECT_DIR$/www/css/ingress.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44278607">
-          <caret line="109" column="54" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/front.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4264151">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding />
         </state>
       </provider>

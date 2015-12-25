@@ -20,6 +20,14 @@ class ArticlePresenter extends BasePresenter
 	 */
 	public $article;
 
+	public function actionShow($id)
+	{
+		if (!$this->article->get($id)) {
+			$this->flashMessage('Stránka neexistuje.', 'warning');
+			$this->redirect('Homepage:default');
+		}
+	}
+
 	public function renderShow($id) {
 		$this->template->article = $this->article->get($id);
 	}

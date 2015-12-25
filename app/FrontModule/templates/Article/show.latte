@@ -1,7 +1,11 @@
+{block jumbotron}
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="container jumbotron-orange">
+		<h1 n:block="title">{$article->name}</h1>
+	</div>
+{/block}
+
 {block content}
-
-	<h1 n:block="title">{$article->name}</h1>
-
 	{$article->text|noescape}
 
 {/block}

@@ -3,7 +3,7 @@
  */
 
 body {
-    background-color: #C63;
+    background-image: url('../img/noisy-texture-black-blue.png');
 }
 
 .menu {
@@ -24,10 +24,78 @@ body {
 }
 
 footer {
-    height: 2em;
+    height: 60px;
+    color: #999;
+    background-image: url('../img/noisy-texture-black-blue.png');
 }
 
 .jumbotron-orange {
-    background-color: #D93;
+    background-image: url('../img/bajcovna.png');
+    background-color: #F4F0EE;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    padding: 20px 20px;
+    margin-bottom: -5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 -50px 100px 20px rgba(0,0,0,0.3);
+}
 
+.wrapper {
+    height: 50vh;
+    min-height: 80px;
+    margin-bottom: -60px;
+    background: url('../img/noisy-texture-white-orange.png');
+}
+
+.main-container {
+    background: #C63 url('../img/noisy-texture-white-orange.png');
+}
+
+.main-content {
+    background-color: white;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.1);
+}
+
+
+footer .partners {
+    background: #CCC;
+    padding: 1em 1em;
+}
+
+li {
+    list-style: none;
+}
+
+.goods-item {
+    height: 150px;
+    background-size: cover;
+    backgrond-color: #DDD;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.goods-item:hover {
+    opacity: 1.0;
+}
+
+.photo-center {
+    width: 80%;
+    min-width: 150px;
+    max-height: 800px;
+    margin: 10% 10%;
+}
+
+.photo-frame {
+    border: 6px solid white;
+    box-shadow: 0 0 1px rgba(88,88,99,0.4);
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    color: black;
+}
+
+.jumbotron-orange h1 {
+    text-shadow: -1px -1px 0 #F2EDEC;
 }

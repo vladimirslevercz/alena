@@ -8,7 +8,6 @@
 <head>
     <meta charset="utf-8">
 
-
     <link rel="shortcut icon" href="{$basePath}/favicon.ico">
 
     <meta charset="utf-8">
@@ -30,7 +29,7 @@
 	<script src="{$basePath}/js/jquery-1.11.3.min.js"></script>
 	<script src="{$basePath}/js/bootstrap.min.js"></script>
 
-    <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+    <script src="{$basePath}/js/netteForms.min.js"></script>
 
     {/block}
 
@@ -48,65 +47,95 @@
 
 <body>
 
-	<div class="container">
+	<div class="container-fluid main-container">
+		<div class="container">
 
-		<!-- Static navbar -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" n:href="Homepage:default">
-						<img src="{$basePath}/vectors/alena-logo.svg" style="height:1em" />
-					</a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li class="dropdown-header">Nav header</li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-						<li><a href="../navbar-static-top/">Static top</a></li>
-						<li><a href="../navbar-fixed-top/">Fixed top</a></li>
-					</ul>
-				</div><!--/.nav-collapse -->
-			</div><!--/.container-fluid -->
-		</nav>
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" n:href="Homepage:default">
+							<img src="{$basePath}/vectors/alena-logo.svg" style="height:1em" />
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a n:href="Article:show 1">O nás</a></li>
+							<li><a n:href="Catalog:default">Katalog</a></li>
+							<li><a n:href="Article:show 3">Kontakt</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!--/.container-fluid -->
+			</nav>
 
-    <div class="clearfix"></div>
-	<div id="main-content"
-		{block jumbotron}{/block}
+		<div class="clearfix"></div>
+		<div id="main-content">
+			{block jumbotron}{/block}
 
-		<div class="thumbnail">
-			{block content}{/block}
+			<div class="container main-content">
+				{block content}{/block}
+			</div>
+
 		</div>
-
-
-    <div class="clearfix"></div>
+	    <div class="clearfix"></div>
+	</div>
 </div>
+
+<div class="wrapper"></div>
 
 <!-- Footer -->
 <footer>
-    <div class="container text-center">
-        <p>Copyright &copy; Vladimír Mlázovský 2015</p>
+    <div class="container">
+		<div class="partners">
+			Partneři:
+			<div class="row ">
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-4 center-block">
+					<img src="{$basePath}/vectors/alena-logo.svg" style="width:80%" />
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-xs-12">
+					<p>
+						Adresa: <br/>
+						(((doplnit)))
+					</p>
+					<p>
+						Email: (((doplnit)))
+					</p>
+					<p>
+						Telefon: (((doplnit)))
+					</p>
+				</div>
+				<div class="col-lg-6 col-xs-12">
+					<p>Alena.cz</p>
+					<p>Alena Radlová</p>
+					<p>design a web Vladimír Mlázovský 2015</p>
+				</div>
+			</div>
+		</div>
     </div>
 </footer>
 
