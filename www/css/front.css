@@ -38,6 +38,7 @@ footer {
     padding: 20px 20px;
     margin-bottom: -5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 -50px 100px 20px rgba(0,0,0,0.3);
+    color: black;
 }
 
 .wrapper {
@@ -69,20 +70,23 @@ li {
 .goods-item {
     height: 150px;
     background-size: cover;
+    background-position: top left;
     backgrond-color: #DDD;
     opacity: 0.8;
     transition: opacity 0.3s;
+    transition: background-position 3s;
 }
 
 .goods-item:hover {
     opacity: 1.0;
+    background-position: bottom right;
 }
 
 .photo-center {
     width: 80%;
     min-width: 150px;
     max-height: 800px;
-    margin: 10% 10%;
+    margin: 10px 10%;
 }
 
 .photo-frame {
@@ -98,4 +102,8 @@ h1 {
 
 .jumbotron-orange h1 {
     text-shadow: -1px -1px 0 #F2EDEC;
+}
+
+a {
+    color:green;
 }

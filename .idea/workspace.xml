@@ -1,19 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="Velke zmeny v designu a wip na katalogu.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/favicon.ico" afterPath="$PROJECT_DIR$/www/favicon.ico" />
+    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/www/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/downloads-bg.jpg" afterPath="$PROJECT_DIR$/www/img/downloads-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/intro-bg.jpg" afterPath="$PROJECT_DIR$/www/img/intro-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/media/moxieplayer.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/noisy-texture.png" afterPath="$PROJECT_DIR$/www/img/noisy-texture.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/object.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/spinner.gif" afterPath="$PROJECT_DIR$/www/img/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/stave-lines-bg.png" afterPath="$PROJECT_DIR$/www/img/stave-lines-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/403.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/403.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/403.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/403.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/404.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/404.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/404.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/404.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/405.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/405.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/405.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/405.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/410.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/410.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/410.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/410.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/4xx.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/4xx.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/4xx.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/4xx.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Error/500.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Error/500.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Error/500.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Error/500.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/BasePresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/BasePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Goods.php" afterPath="$PROJECT_DIR$/app/model/Goods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/SignPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/SignPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/UserManager.php" afterPath="$PROJECT_DIR$/app/model/UserManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/admin.css" afterPath="$PROJECT_DIR$/www/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/adminer/adminer.css" afterPath="$PROJECT_DIR$/www/adminer/adminer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/animate.css" afterPath="$PROJECT_DIR$/www/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/www/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/www/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/www/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.neon" afterPath="$PROJECT_DIR$/app/config/config.neon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/example/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/www/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/www/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/www/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/www/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/components/form.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/components/form.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/components/form.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/components/form.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/front.css" afterPath="$PROJECT_DIR$/www/css/front.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/grayscale.css" afterPath="$PROJECT_DIR$/www/css/grayscale.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/grayscale.js" afterPath="$PROJECT_DIR$/www/js/grayscale.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/Sign/in.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Sign/in.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Sign/in.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Sign/in.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/adminer/index.php" afterPath="$PROJECT_DIR$/www/adminer/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ingress.css" afterPath="$PROJECT_DIR$/www/css/ingress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/www/js/jquery.easing.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery.js" afterPath="$PROJECT_DIR$/www/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/license.txt" afterPath="$PROJECT_DIR$/www/js/tinymce/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/netteForms.min.js" afterPath="$PROJECT_DIR$/www/js/netteForms.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/npm.js" afterPath="$PROJECT_DIR$/www/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/autosave/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/bbcode/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/code/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/example/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/example_dependency/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/hr/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/image/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/imagetools/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/importcss/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/insertdatetime/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/layer/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/link/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/lists/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/media/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/nonbreaking/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/noneditable/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/pagebreak/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/preview/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/print/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/save/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/searchreplace/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/table/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/template/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/textpattern/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/visualblocks/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/visualchars/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/wordcount/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/www/js/tinymce/langs/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/rotated-flipped.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/themes/modern/theme.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/www/js/tinymce/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/www/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/www/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/www/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alena.iws" />
@@ -42,31 +210,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhotoPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4264151">
-              <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ingress.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/ingress.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30174562">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -75,60 +223,8 @@
       <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667">
-              <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-              <folding>
-                <element signature="e#192#210#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatalogPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-42.666668">
-              <caret line="69" column="170" selection-start-line="69" selection-start-column="170" selection-end-line="69" selection-end-column="170" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0">
-              <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goods.inc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="157" selection-start-line="8" selection-start-column="157" selection-end-line="8" selection-end-column="157" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,6 +282,7 @@
         <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/www/css/ingress.css" />
+        <option value="&lt;b918fff9-c23d-4871-ad50-4136beb773c3&gt;/randova.cz/app/bootstrap.php" />
         <option value="$PROJECT_DIR$/www/css/front.css" />
       </list>
     </option>
@@ -268,9 +365,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="fron&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;front&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;naviga&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc&#10;front.&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;conf&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/config/config.local.neon&#10;ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
+    <property name="SearchEverywhereHistoryKey" value="front&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;fron&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;naviga&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc&#10;front.&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;conf&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/config/config.local.neon&#10;ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -366,7 +463,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449061710107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Velke zmeny v designu a WIP na katalogu.">
+      <created>1451034163256</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1451034163256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -380,29 +483,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23748212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23748212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -424,7 +527,8 @@
     <MESSAGE value="Pridana administrace uctu" />
     <MESSAGE value="Pridana cena zbozi." />
     <MESSAGE value="Velke zmeny v designu a wip na katalogu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Velke zmeny v designu a wip na katalogu." />
+    <MESSAGE value="Velke zmeny v designu a WIP na katalogu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Velke zmeny v designu a WIP na katalogu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,27 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Category/create.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Category/children.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Menu/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/nette/database/src/Database/Table/Selection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.820513">
@@ -461,101 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Category/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.833333">
-          <caret line="27" column="25" selection-start-line="23" selection-start-column="20" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Article/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Menu/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102564104">
-          <caret line="5" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Manufacturer/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Category/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/CategoryPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/User/create.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/User/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/User/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.041025642">
-          <caret line="41" column="55" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/UserPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="39" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -573,59 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="38" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/edit.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/create.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/ArticlePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/gd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5897436">
           <caret line="1029" column="9" selection-start-line="1029" selection-start-column="9" selection-end-line="1029" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/create.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Photo/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -650,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -664,125 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/navigation.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44754317">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/ArticlePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.833333">
-          <caret line="38" column="114" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/netteForms.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="107" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="157" selection-start-line="8" selection-start-column="157" selection-end-line="8" selection-end-column="157" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Article/show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.666668">
-          <caret line="69" column="170" selection-start-line="69" selection-start-column="170" selection-end-line="69" selection-end-column="170" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="e#192#210#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -790,18 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/ingress.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4264151">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.30174562">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
           <folding />
         </state>
       </provider>
