@@ -24,12 +24,12 @@ class Photo extends \Nette\Database\Table\Selection {
 	 * Save file into filesystem and insert information into database.
 	 * Checks extension and gives file mime type.
 	 * @param FileUpload $file
-	 * @param $goods_id
+	 * @param int $goods_id
+	 * @param string $name
 	 * @param string $description
 	 * @return bool success
-	 * @throws \Exception
 	 */
-	public function insertPhoto($file, $goods_id, $name, $description = null) {
+	public function insertPhoto($file, $goods_id, $name = '', $description = '') {
 
 		$photo = new Photo($this->db);
 		$filename = $file->getName();
@@ -42,7 +42,7 @@ class Photo extends \Nette\Database\Table\Selection {
 		}
 
 		$lastPhoto_id = $photo->insert(array(
-			'name' => $name,
+			'name' => $name ? $name : $filename,
 			'goods_id' => $goods_id,
 			'description' => $description
 		));

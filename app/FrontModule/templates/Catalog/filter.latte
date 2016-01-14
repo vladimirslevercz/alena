@@ -7,12 +7,36 @@
 
 {block content}
 
-	<div class="col-lg-3 col-md-4 col-md-4 col-xs-12">
+	<style>
+		.side-menu {
+			height: 100vh;
+			overflow: auto;
+			padding: 10px 0 0 0;
+		}
+		.categories ul, .manufacturers ul {
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+		}
+
+		.categories ul ul, .manufacturers5 ul ul {
+			padding: 0px 0px 0px 20px;
+			margin: 0px 0px 5px 5px;
+		}
+
+		.rotate-90 {
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+
+	</style>
+
+	<div class="col-lg-3 col-md-4 col-md-4 col-xs-12 side-menu">
 		<div class="categories">
 			<ul>
 				<li n:foreach="$categories as $category">
-					<a n:href="filter $category->id, null" {if $category->id == $selectedCategoryId} class="active"{/if}>{$category->name}</a>
-					<ul n:if="count($category->related('category.parent'))">
+					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: transparent"{/if}></i> <a n:href="filter $category->id, null" {if $category->id == $selectedCategoryId} class="active"{/if}>{$category->name}</a>
+					<ul n:if="count($category->related('category.parent'))" class="subcategory"{if $category->id != $selectedCategoryId} style="display: none"{/if}>
 						<li n:foreach="$category->related('category.parent') as $subcategory">
 							<a n:href="filter $subcategory->id, null" {if $subcategory->id == $selectedCategoryId} class="active"{/if}>{$subcategory->name}</a>
 						</li>
@@ -20,6 +44,9 @@
 				</li>
 			</ul>
 		</div>
+
+		<hr />
+
 		<div class="manufacturers">
 			<ul>
 				<li n:foreach="$manufacturers as $manufacturer">
@@ -32,5 +59,24 @@
 	{include 'goods.inc' }
 
 	<div class="clearfix"></div>
+	<script>
+		$('.categories i.glyphicon-chevron-right').on('click', function() {
+			searchedChild = $(this).parent('li').children('.subcategory');
+			if (searchedChild.is(":visible")) {
+				$(this).css('-webkit-transform','rotate(0deg)');
+				$(this).css('-moz-transform','rotate(0deg)');
+				$(this).css('transform','rotate(0deg)');
+			}
+			$(this).animate({  borderSpacing: searchedChild.is(":visible") ? 0 : +90 }, {
+				step: function(now,fx) {
+					$(this).css('-webkit-transform','rotate('+now+'deg)');
+					$(this).css('-moz-transform','rotate('+now+'deg)');
+					$(this).css('transform','rotate('+now+'deg)');
+				},
+				duration:'fast'
+			},'linear');
+			$(this).parent('li').children('.subcategory').toggle('hide');
 
+		})
+	</script>
 {/block}

@@ -29,6 +29,12 @@ class GoodsPresenter extends BasePresenter
 	public $category;
 
 	/**
+	 * @var Model\CategoryGoods
+	 * @inject
+	 */
+	public $categoryGoods;
+
+	/**
 	 * @var Model\Manufacturer
 	 * @inject
 	 */
@@ -38,6 +44,12 @@ class GoodsPresenter extends BasePresenter
 	 * @persist
 	 */
 	public $page;
+
+	/**
+	 * @var Model\Photo
+	 * @inject
+	 */
+	public $photo;
 
 	public function actionDefault($page = 0) {
 		if (!$this->page || $page) {
@@ -63,9 +75,8 @@ class GoodsPresenter extends BasePresenter
 		if (!$defaults['manufacturer_id']) {
 			$defaults['manufacturer_id'] = '';
 		}
-		if (!$defaults['category_id']) {
-			$defaults['category_id'] = '';
-		}
+
+		$defaults['category_id'] = $this->categoryGoods->where('goods_id = ?', $id)->fetchPairs(null, 'category_id');
 		$this['itemForm']->setDefaults($defaults);
 	}
 
@@ -77,12 +88,12 @@ class GoodsPresenter extends BasePresenter
 			->setRequired();
 
 		$categories = $this->category->order('name')->fetchPairs('id', 'name');
-		$categories[null] = '--- Žádná kategorie ---';
 
 		$manufacturers = $this->manufacturer->order('name')->fetchPairs('id', 'name');
 		$manufacturers[null] = '--- Žádný výrobce ---';
 
-		$form->addSelect('category_id', 'Kategorie', $categories)->setDefaultValue('');
+		$form->addCheckboxList('category_id', 'Kategorie', $categories);
+		$form['category_id']->setAttribute('class', 'small');
 
 		$form->addSelect('manufacturer_id', 'Výrobce', $manufacturers)->setDefaultValue('');
 
@@ -100,6 +111,8 @@ class GoodsPresenter extends BasePresenter
 
 		$form->addCheckbox('recommended', 'Je zboží doporučené?');
 
+		$form->addUpload('photo', 'Přidat obrázek výrobku:');
+
 		$form->addTextArea('description', 'Popis:')
 			->setAttribute('class', 'tinyMCE');
 
@@ -114,26 +127,52 @@ class GoodsPresenter extends BasePresenter
 
 	public function itemFormSucceeded(UI\Form $form, $values)
 	{
-		if (isset($values['category_id']) && !$values['category_id'] ) {
-			$values['category_id'] = $values['category_id'] ? $values['category_id'] : null;
-		}
+
 		if (isset($values['manufacturer_id']) && !$values['manufacturer_id'] ) {
 			$values['manufacturer_id'] = $values['manufacturer_id'] ? $values['manufacturer_id'] : null;
 		}
+		foreach($values as $k => $v) {
+			if ($k != 'category_id' && $k != 'photo') {
+				$updateOrInsert[$k] = $v;
+			}
+		}
+
 		$itemId = $this->getParameter('id');
 		if ($itemId) {
 			$item = $this->item->get($itemId);
 			if (!$item) {
 				$this->error('Data nebyla nalezena v databázi.', 404);
 			} else {
-				$item->update($values);
+				$item->update($updateOrInsert);
 			}
+
+			$this->categoryGoods->where('goods_id', $itemId)->delete();
+			$forInsert = array();
+			foreach ($values['category_id'] as $categoryId) {
+				$forInsert[] = ['category_id' => $categoryId, 'goods_id' => $itemId];
+			}
+			$this->categoryGoods->insert($forInsert);
+
 			$this->flashMessage('Změny uloženy.', 'success');
 
 		} else {
-			$item = $this->item->insert($values);
+			$item = $this->item->insert($updateOrInsert);
+
+			// categories
+			$forInsert = array();
+			foreach ($values['category_id'] as $categoryId) {
+				$forInsert[] = ['category_id' => $categoryId, 'goods_id' => $item->id];
+			}
+			$this->categoryGoods->insert($forInsert);
 			$this->flashMessage('Výrobek vložen do databáze.', 'success');
 		}
+
+		if ($item && $values['photo']) {
+			if ($this->photo->insertPhoto($values['photo'], $item->id)) {
+				$this->flashMessage('Byl přiložen obrázek.', 'success');
+			}
+		}
+
 		$this->redirect('edit', $item->id);
 	}
 

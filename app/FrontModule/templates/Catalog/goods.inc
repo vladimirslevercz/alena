@@ -6,7 +6,7 @@
 	<div class="row">
 		<div n:foreach="$goodsRecommended as $good"
 			 class="goods-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
-			 style="border: 1px dotted red;{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+			 style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
 		>
 			<span class="">{$good->name}
 		</div>
@@ -19,7 +19,10 @@
 		<h2>{$filterName}</h2>
 	</div>
 	<div class="row">
-		<div n:foreach="$goodsOther as $good" class="goods-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+		<div n:foreach="$goodsOther as $good"
+			 class="goods-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+			 style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+		>
 			{$good->name}
 		</div>
 	</div>

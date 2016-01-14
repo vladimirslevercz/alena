@@ -73,8 +73,7 @@ li {
     background-position: top left;
     backgrond-color: #DDD;
     opacity: 0.8;
-    transition: opacity 0.3s;
-    transition: background-position 3s;
+    transition: opacity 0.3s, background-position 3s;
 }
 
 .goods-item:hover {
@@ -106,4 +105,26 @@ h1 {
 
 a {
     color:green;
+}
+
+.top-menu {
+    background: white;
+    margin-bottom: 1em;
+    padding: 8px 10px 8px 10px;
+    border-bottom: 2px solid green;
+}
+
+.top-menu a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid green;
+    transition: border 0.3s, background 0.15s;
+}
+
+.top-menu a:hover {
+    background: #FFF9F5;
+    border-bottom:2px solid #FFAA00;
+    text-decoration: none;
+    color: darkgreen;
 }

@@ -42,6 +42,7 @@
 	<!-- Own CSS -->
 	<link href="{$basePath}/css/front.css" rel="stylesheet">
 
+	{block style}{/block}
 
 </head>
 
@@ -50,33 +51,18 @@
 	<div class="container-fluid main-container">
 		<div class="container">
 
-			<!-- Static navbar -->
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" n:href="Homepage:default">
-							<img src="{$basePath}/vectors/alena-logo.svg" style="height:1em" />
-						</a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li><a n:href="Article:show 1">O nás</a></li>
-							<li><a n:href="Catalog:default">Katalog</a></li>
-							<li><a n:href="Article:show 3">Kontakt</a></li>
-						</ul>
-					</div><!--/.nav-collapse -->
-				</div><!--/.container-fluid -->
-			</nav>
-
-		<div class="clearfix"></div>
 		<div id="main-content">
+			<!-- Static navbar -->
+
 			{block jumbotron}{/block}
+
+			<div class="top-menu container">
+				<a n:href="Homepage:default">Domů</a>
+				<a n:href="Article:show 1">O nás</a>
+				<a n:href="Catalog:default">Katalog</a>
+				<a n:href="Article:show 3">Kontakt</a>
+			</div>
+			<div class="clearfix"></div>
 
 			<div class="container main-content">
 				{block content}{/block}

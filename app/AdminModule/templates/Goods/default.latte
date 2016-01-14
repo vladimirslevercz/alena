@@ -29,7 +29,9 @@
                     {$i->name}
                 </td>
                 <td>
-                    {if $i->category}{$i->category->name}{else}-{/if}
+                    {foreach $i->related('category_goods.goods_id') as $cg}
+                    	{$cg->category->name}{if !$iterator->isLast()}, {/if}
+					{/foreach}
                 </td>
                 <td>
                     {$i->stock}
