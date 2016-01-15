@@ -20,11 +20,11 @@
 		<div class="categories">
 			<a name="categories"></a>
 			<ul>
-				<li n:foreach="$categories as $category">
-					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: transparent"{/if}></i> <a n:href="filter $category->id, null" {if $category->id == $selectedCategoryId} class="active"{/if}>{$category->name}</a>
+				<li n:foreach="$categories as $category" {if $category->id == $selectedCategoryId} class="active"{/if}>
+					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: transparent"{/if}></i> <a n:href="filter $category->id, null">{$category->name}</a>
 					<ul n:if="count($category->related('category.parent'))" class="subcategory"{if $category->id != $selectedCategoryId} style="display: none"{/if}>
-						<li n:foreach="$category->related('category.parent') as $subcategory">
-							<a n:href="filter $subcategory->id, null" {if $subcategory->id == $selectedCategoryId} class="active"{/if}>{$subcategory->name}</a>
+						<li n:foreach="$category->related('category.parent') as $subcategory" {if $subcategory->id == $selectedSubCategoryId} class="active"{/if}>
+							<a n:href="filter $subcategory->id, null">{$subcategory->name} {$selectedCategoryId}</a>
 						</li>
 					</ul>
 				</li>
@@ -35,8 +35,8 @@
 
 		<div class="manufacturers">
 			<ul>
-				<li n:foreach="$manufacturers as $manufacturer">
-					<a n:href="filter null, $manufacturer->id" {if $category->id == $selectedManufacturerId} class="active"{/if}>{$manufacturer->name}</a>
+				<li n:foreach="$manufacturers as $manufacturer" {if $manufacturer->id == $selectedManufacturerId} class="active"{/if}>
+					<a n:href="filter null, $manufacturer->id">{$manufacturer->name}</a>
 				</li>
 			</ul>
 		</div>

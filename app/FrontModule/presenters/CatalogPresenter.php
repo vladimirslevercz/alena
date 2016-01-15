@@ -48,13 +48,14 @@ class CatalogPresenter extends BasePresenter
 		$this->template->goodsRecommended =  array();
 		$this->template->goodsOther =  array();
 		$this->template->selectedCategoryId = null;
+		$this->template->selectedSubCategoryId = null;
 		$this->template->selectedManufacturerId = null;
 	}
 
 	public function renderDefault()
 	{
 		$this->template->setFile(__DIR__.'/../templates/Catalog/filter.latte');
-		$this->template->goodsRecommended = $this->good->where('stock > 0 AND recommended != 0')->order('id DESC')->limit(6);
+		$this->template->goodsRecommended = $this->good->where('recommended != 0')->order('id DESC')->limit(6);
 		$this->template->goodsOther = array();
 		$this->template->filterName = 'Doporučené';
 	}
@@ -96,6 +97,9 @@ class CatalogPresenter extends BasePresenter
 				$this->template->goodsOther = $this->good->createSelectionInstance()->where('id', $this->database->getConnection()->query($sql . "0 GROUP BY id")->fetchPairs());
 				if ($category->parent) {
 					$this->template->selectedCategoryId = $category->parent;
+					$this->template->selectedSubCategoryId = $categoryId;
+				} else {
+					$this->template->selectedCategoryId = $categoryId;
 				}
 			}
 
@@ -107,7 +111,7 @@ class CatalogPresenter extends BasePresenter
 				$this->template->filterName = $manufacturer->name;
 				$this->template->goodsRecommended = $this->good->where('manufacturer_id = ? AND recommended != 0', $manufacturerId)->order('id DESC');
 				$this->template->goodsOther = $this->good->createSelectionInstance()->where('manufacturer_id = ? AND recommended = 0', $manufacturerId)->order('id DESC');
-
+				$this->template->selectedManufacturer = $manufacturerId;
 			}
 		}
 

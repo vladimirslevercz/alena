@@ -72,7 +72,7 @@ li {
 }
 
 .goods-item {
-    height: 150px;
+    height: 200px;
     background-size: cover;
     background-position: top left;
     backgrond-color: #DDD;
@@ -88,15 +88,19 @@ li {
 .goods-name {
     position: absolute;
     bottom: 0px;
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.5);
     width: 100%;
     text-align: right;
     border-bottom: 2px solid green;
     color: #003313;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0px -1px 0px rgba(255, 255, 255, 0.2), 0px 1px 0px rgba(0, 0, 0, 0.2);
     transition: border 0.3s, background 0.15s, padding 0.2s;
-    margin-left: -20px;
+    margin-left: -15px;
     padding-right: 5px;
+}
+
+.recomended-item .goods-name {
+    background: rgba(255,200,0,0.7);
 }
 
 .goods-name:hover {
@@ -107,6 +111,11 @@ li {
     text-decoration: none;
     color: black;
 }
+
+.recomended-item .goods-name:hover {
+    background: rgba(255,205,15,0.7);
+}
+
 
 .good-description {
     padding-top: 10px;
@@ -180,7 +189,14 @@ a {
     margin: 0 0 0 0;
 }
 
-.categories ul ul, .manufacturers5 ul ul {
+.categories ul ul, .manufacturers ul ul {
     padding: 0px 0px 0px 20px;
     margin: 0px 0px 5px 5px;
+}
+
+.categories li.active, .manufacturers li.active {
+    background: #EEE;
+}
+.categories .subcategory li.active a {
+    color: black;
 }
