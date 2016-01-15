@@ -50,6 +50,7 @@ footer {
 
 .main-container {
     background: #C63 url('../img/noisy-texture-white-orange.png');
+    padding-bottom: 40px;
 }
 
 .main-content {
@@ -59,8 +60,11 @@ footer {
 
 
 footer .partners {
-    background: #CCC;
-    padding: 1em 1em;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #DDD;
 }
 
 li {
@@ -72,7 +76,7 @@ li {
     background-size: cover;
     background-position: top left;
     backgrond-color: #DDD;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity 0.3s, background-position 3s;
 }
 
@@ -80,6 +84,35 @@ li {
     opacity: 1.0;
     background-position: bottom right;
 }
+
+.goods-name {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(255,255,255,0.3);
+    width: 100%;
+    text-align: right;
+    border-bottom: 2px solid green;
+    color: #003313;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0px -1px 0px rgba(255, 255, 255, 0.2), 0px 1px 0px rgba(0, 0, 0, 0.2);
+    transition: border 0.3s, background 0.15s, padding 0.2s;
+    margin-left: -20px;
+    padding-right: 5px;
+}
+
+.goods-name:hover {
+    background: rgba(255, 248, 244, 0.5);
+    border-bottom: 2px solid #FFAA00;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.good-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 .photo-center {
     width: 80%;
@@ -127,4 +160,27 @@ a {
     border-bottom:2px solid #FFAA00;
     text-decoration: none;
     color: darkgreen;
+}
+
+.side-menu {
+    max-height: 100vh;
+    overflow: auto;
+    padding: 10px 0 10px 0;
+}
+
+.goods-items {
+    max-height: 100vh;
+    overflow: auto;
+    padding-bottom: 10px;
+
+}
+
+.categories ul, .manufacturers ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.categories ul ul, .manufacturers5 ul ul {
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 5px 5px;
 }

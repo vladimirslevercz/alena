@@ -1,0 +1,22 @@
+{block jumbotron}
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="container jumbotron-orange" xmlns:n="http://www.w3.org/1999/xhtml">
+		<h1 n:block="title">{$good->name}{if $good->manufacturer}<small>{$good->manufacturer->name}</small>{/if}</h1>
+	</div>
+{/block}
+
+{block content}
+
+	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-10">
+		<div class="good-description">
+			{$good->description|noescape}
+		</div>
+
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-2">
+		{foreach $good->related('photo') as $photo}
+			<img src="{$basePath}/content/photo/{$photo}.big.jpg" class="photo-frame photo-center"/>
+		{/foreach}
+	</div>
+
+{/block}
