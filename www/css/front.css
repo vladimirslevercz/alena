@@ -78,6 +78,7 @@ li {
     backgrond-color: #DDD;
     opacity: 0.9;
     transition: opacity 0.3s, background-position 3s;
+    border: 1px solid #DDD;
 }
 
 .goods-item:hover {
@@ -87,15 +88,13 @@ li {
 
 .goods-name {
     position: absolute;
-    bottom: 0px;
-    background: rgba(255,255,255,0.5);
-    width: 100%;
+    bottom: 1px; left: 16px;
+    background: rgba(255,255,255,1);
     text-align: right;
     border-bottom: 2px solid green;
     color: #003313;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0px -1px 0px rgba(255, 255, 255, 0.2), 0px 1px 0px rgba(0, 0, 0, 0.2);
     transition: border 0.3s, background 0.15s, padding 0.2s;
-    margin-left: -15px;
     padding-right: 5px;
 }
 
@@ -104,7 +103,7 @@ li {
 }
 
 .goods-name:hover {
-    background: rgba(255, 248, 244, 0.5);
+    background: rgba(255, 248, 244, 1);
     border-bottom: 2px solid #FFAA00;
     padding-top: 4px;
     padding-bottom: 2px;
