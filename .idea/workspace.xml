@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/GoodsPresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/GoodsPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Photo.php" afterPath="$PROJECT_DIR$/app/model/Photo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/front.css" afterPath="$PROJECT_DIR$/www/css/front.css" />
     </list>
     <ignored path="alena.iws" />
@@ -71,7 +69,7 @@
       <file leaf-file-name="CatalogPresenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.166666">
+            <state vertical-scroll-proportion="0.0">
               <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
               <folding>
                 <element signature="e#46#68#0#PHP" expanded="true" />
@@ -84,12 +82,9 @@
       <file leaf-file-name="filter.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.041666">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-              <folding>
-                <element signature="e#752#823#0#HTML" expanded="true" />
-                <element signature="e#1017#1038#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,12 +92,9 @@
       <file leaf-file-name="goods.inc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="147" selection-start-line="27" selection-start-column="147" selection-end-line="27" selection-end-column="147" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#i#2;n#div#2;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#i#3;n#div#2;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#i#1;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#i#2;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -110,29 +102,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PhotoPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="28.75">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GoodsPresenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.latte" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.379494">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="63" column="147" selection-start-line="63" selection-start-column="147" selection-end-line="63" selection-end-column="147" />
               <folding>
-                <element signature="e#1479#1500#0#HTML" expanded="true" />
-                <element signature="e#1612#1633#0#HTML" expanded="true" />
-                <element signature="e#1742#1763#0#HTML" expanded="true" />
-                <element signature="e#1872#1893#0#HTML" expanded="true" />
-                <element signature="e#2873#2901#0#HTML" expanded="true" />
-                <element signature="e#2951#3090#0#HTML" expanded="true" />
-                <element signature="e#3247#3268#0#HTML" expanded="true" />
+                <element signature="e#2987#3015#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,18 +137,18 @@
       <file leaf-file-name="front.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.843137">
-              <caret line="337" column="33" selection-start-line="337" selection-start-column="33" selection-end-line="337" selection-end-column="33" />
+            <state vertical-scroll-proportion="-6.392157">
+              <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="12" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state vertical-scroll-proportion="1.4038461">
+              <caret line="74" column="118" selection-start-line="74" selection-start-column="118" selection-end-line="74" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -161,7 +157,7 @@
       <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.958334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
               <folding />
             </state>
@@ -216,17 +212,17 @@
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
         <option value="$PROJECT_DIR$/app/model/CategoryGoods.php" />
         <option value="$PROJECT_DIR$/app/config/config.neon" />
-        <option value="$PROJECT_DIR$/app/model/Photo.php" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Goods/default.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
         <option value="$PROJECT_DIR$/app/FrontModule/presenters/GoodsPresenter.php" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
-        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
         <option value="$PROJECT_DIR$/www/css/front.css" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
+        <option value="$PROJECT_DIR$/app/model/Photo.php" />
       </list>
     </option>
   </component>
@@ -268,6 +264,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vectors" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,8 +390,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,7 +536,19 @@
       <option name="project" value="LOCAL" />
       <updated>1454579080628</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Zbozi jako novinka a doprodej.&#10;Značky v katalogu.&#10;Detail zbozi.">
+      <created>1454613307234</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1454613307234</updated>
+    </task>
+    <task id="LOCAL-00013" summary="pridany ikonky skladu a doprodeje (vyprodej).">
+      <created>1454613380739</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1454613380739</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -557,21 +565,21 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -603,7 +611,9 @@
     <MESSAGE value="Vyrobek muze byt ve vice kategoriich.&#10;Vylepseni katalogu." />
     <MESSAGE value="Zobrazení detailu výrobku&#10;Vylepšení katalogu." />
     <MESSAGE value="Vylepšení katalogu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Vylepšení katalogu." />
+    <MESSAGE value="Zbozi jako novinka a doprodej.&#10;Značky v katalogu.&#10;Detail zbozi." />
+    <MESSAGE value="pridany ikonky skladu a doprodeje (vyprodej)." />
+    <option name="LAST_COMMIT_MESSAGE" value="pridany ikonky skladu a doprodeje (vyprodej)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,14 +622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/CategoryGoods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -919,25 +921,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.958334">
-          <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="12" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.166666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
           <folding>
             <element signature="e#46#68#0#PHP" expanded="true" />
@@ -950,64 +936,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.666666">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.041666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#752#823#0#HTML" expanded="true" />
-            <element signature="e#1017#1038#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#i#2;n#div#2;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#i#3;n#div#2;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#i#1;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#i#2;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.843137">
-          <caret line="337" column="33" selection-start-line="337" selection-start-column="33" selection-end-line="337" selection-end-column="33" />
+        <state vertical-scroll-proportion="-6.392157">
+          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.379494">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="63" column="147" selection-start-line="63" selection-start-column="147" selection-end-line="63" selection-end-column="147" />
           <folding>
-            <element signature="e#1479#1500#0#HTML" expanded="true" />
-            <element signature="e#1612#1633#0#HTML" expanded="true" />
-            <element signature="e#1742#1763#0#HTML" expanded="true" />
-            <element signature="e#1872#1893#0#HTML" expanded="true" />
-            <element signature="e#2873#2901#0#HTML" expanded="true" />
-            <element signature="e#2951#3090#0#HTML" expanded="true" />
-            <element signature="e#3247#3268#0#HTML" expanded="true" />
+            <element signature="e#2987#3015#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="147" selection-start-line="27" selection-start-column="147" selection-end-line="27" selection-end-column="147" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#i#1;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#i#2;n#div#2;n#div#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PhotoPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.75">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4038461">
+          <caret line="74" column="118" selection-start-line="74" selection-start-column="118" selection-end-line="74" selection-end-column="118" />
+          <folding />
         </state>
       </provider>
     </entry>

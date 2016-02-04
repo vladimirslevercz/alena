@@ -12,6 +12,8 @@ class Photo extends \Nette\Database\Table\Selection {
 	const SAVE_DIR = "../www/content/photo/";
 	const ENABLED_EXTENSION = "jpg jpeg";
 
+
+
     private $db;
     private $table = "photo";
 
@@ -69,8 +71,8 @@ class Photo extends \Nette\Database\Table\Selection {
 			imagecopyresampled($bigThumbnail, $src, 0, 0, 0, 0, $targetWidth, $targetHeight, $width, $height);
 			imagejpeg($bigThumbnail, $photoFileNameBig, 75);
 
-			$smallThumbnail = imagecreatetruecolor(round($targetWidth / 4), round($targetHeight / 4));
-			imagecopyresampled($smallThumbnail, $src, 0, 0, 0, 0, round($targetWidth / 4), round($targetHeight / 4), $width, $height);
+			$smallThumbnail = imagecreatetruecolor(round($targetWidth / 2.5), round($targetHeight / 2.5));
+			imagecopyresampled($smallThumbnail, $src, 0, 0, 0, 0, round($targetWidth / 2.5), round($targetHeight / 2.5), $width, $height);
 			imagejpeg($smallThumbnail, $photoFileNameSmall, 50);
 
 

@@ -53,11 +53,15 @@
 	<div class="clearfix"></div>
 
 	<div class="goods-similar">
+		<div class="container">
+			<span class="similar-heading">Podobné</span>
+		</div>
+		<div class="clearfix"></div>
 		<a n:foreach="$goodsSimilar as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">{breakIf ($iterator->getCounter() > 6)}
 			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom: 10px;">
 				<div
 						class="goods-similar-item"
-						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
 				>
 				</div>
 				<div class="goods-similar-name">{$good->name}</div>
@@ -73,9 +77,10 @@
 		<div class="float-gallery-center-panel">
 			<div>
 				<button class="pull-right btn btn-danger" id="float-gallery-button-close"><i class="glyphicon glyphicon-remove"></i> </button>
+				<div class="clearfix"></div>
 			</div>
 			<div class="wrapper-60vh float-gallery-photo">
-				<img src="" class="photo-frame" id="float-gallery-photo"/>
+				<img src="" id="float-gallery-photo"/>
 			</div>
 			<div id="float-gallery-photo-controls">
 				<button class="pull-left btn btn-default" id="float-gallery-button-prev"><i class="glyphicon glyphicon-triangle-left"></i> předchozí</button>

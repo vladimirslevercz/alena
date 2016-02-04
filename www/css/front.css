@@ -145,7 +145,7 @@ li {
     margin-left: -15px;
     margin-right: -15px;
     padding-top: 15px;
-
+    box-shadow: inset 0 5px 5px -5px silver;
 }
 
 .good-photo-name {
@@ -258,6 +258,7 @@ a {
     max-width: 800px;
     max-height: 100vh;
     margin:auto auto;
+    padding-top: 20px;
     overflow: auto;
 }
 
@@ -270,7 +271,7 @@ a {
 }
 
 #float-gallery-button-close {
-    margin-top: 2vh;
+
 }
 
 #float-gallery-button-prev, #float-gallery-button-next, #float-gallery-button-end {
@@ -336,4 +337,9 @@ p.we-recommend {
     border: 2px solid #EEDD33;
     border-top-color: #F8EE44;
     border-bottom-color: #E0D810;
+}
+
+.similar-heading {
+    color: #999;
+    margin-top: -5px;
 }

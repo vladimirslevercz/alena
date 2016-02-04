@@ -25,7 +25,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="margin-bottom: 10px;">
 					<div
 						class="goods-item"
-						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
 						>
 					</div>
 					<div class="goods-name">{$good->name}</div>
