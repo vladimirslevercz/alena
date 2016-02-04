@@ -1,22 +1,161 @@
 {block jumbotron}
 	<!-- Main component for a primary marketing message or call to action -->
 	<div class="container jumbotron-orange" xmlns:n="http://www.w3.org/1999/xhtml">
-		<h1 n:block="title">{$good->name}{if $good->manufacturer}<small>{$good->manufacturer->name}</small>{/if}</h1>
+		<h1 n:block="title">{$good->name}{if $good->manufacturer} <small>{$good->manufacturer->name}</small>{/if}</h1>
 	</div>
 {/block}
 
 {block content}
 
-	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-10">
+	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+		<h2>{$good->name}{if $good->manufacturer} <small>{$good->manufacturer->name}</small>{/if}</h2>
+		<div class="good-navigation">
+			<div class="col-lg-3 col-md-7 col-sm-6 col-xs-6">
+				kategorie<br />
+				{foreach $good->related('category_goods') as $cg}<a n:href="Catalog:filter $cg->category->id, null">{$cg->category->name}</a>{sep}, {/sep}{/foreach}
+			</div>
+			<div class="col-lg-2 col-md-5 col-sm-6 col-xs-6">
+				výrobce<br />
+				<a n:href="Catalog:filter null, $good->manufacturer->id">{$good->manufacturer->name}</a>
+			</div>
+			<hr class="hidden-lg"/>
+			<div class="col-lg-4 col-md-7 col-sm-6 col-xs-12">
+				{if $good->recommended}<p class="we-recommend"><i class="glyphicon glyphicon-thumbs-up" title="Dopuručujeme"></i> Doporučujeme.</p>{/if}
+				{if $good->new}<p class="novinka">novinka</p>{/if}
+				{if $good->stock && $good->clearance_sale}<p>Probíhá doprodej</p>
+				{elseif !$good->stock && $good->clearance_sale}<p>Zboží vyprodáno</p>{/if}
+			</div>
+			<div class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+				<p>{if $good->stock > 100}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem  >100 ks
+					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >20 ks
+					{elseif $good->stock > 5}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >5 ks
+					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem {$good->stock} ks
+					{else}Není skladem{/if}
+				</p>
+				<div n:if="$good->price > 0 && $good->showPrice" class="main-price"><span>{$good->price} Kč</span></div>
+			</div>
+
+
+			<div class="clearfix"></div>
+		</div>
+		<hr />
 		<div class="good-description">
 			{$good->description|noescape}
 		</div>
-
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-2">
+
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 		{foreach $good->related('photo') as $photo}
-			<img src="{$basePath}/content/photo/{$photo}.big.jpg" class="photo-frame photo-center"/>
+			<img src="{$basePath}/content/photo/{$photo}.big.jpg" class="photo-frame photo-center photo-for-gallery" title="{$photo->name}" data-description="{$photo->description}" id="photo_{$photo}"/>
+			{if $photo->name}<div class="good-photo-name">{$photo->name}</div>{/if}
 		{/foreach}
 	</div>
+	<div class="clearfix"></div>
 
+	<div class="goods-similar">
+		<a n:foreach="$goodsSimilar as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">{breakIf ($iterator->getCounter() > 6)}
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom: 10px;">
+				<div
+						class="goods-similar-item"
+						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+				>
+				</div>
+				<div class="goods-similar-name">{$good->name}</div>
+			</div>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+
+
+	<div id="float-gallery" style="display: none">
+		<div id="float-gallery-background"></div>
+
+		<div class="float-gallery-center-panel">
+			<div>
+				<button class="pull-right btn btn-danger" id="float-gallery-button-close"><i class="glyphicon glyphicon-remove"></i> </button>
+			</div>
+			<div class="wrapper-60vh float-gallery-photo">
+				<img src="" class="photo-frame" id="float-gallery-photo"/>
+			</div>
+			<div id="float-gallery-photo-controls">
+				<button class="pull-left btn btn-default" id="float-gallery-button-prev"><i class="glyphicon glyphicon-triangle-left"></i> předchozí</button>
+				<button class="pull-right btn btn-default" id="float-gallery-button-next">další <i class="glyphicon glyphicon-triangle-right"></i></button>
+				<button class="pull-right btn btn-warning" id="float-gallery-button-end"><i class="glyphicon glyphicon-remove"></i> konec</button>
+			</div>
+			<div class="clearfix"></div>
+			<div id="float-gallery-photo-title">
+				Název
+			</div>
+			<div id="float-gallery-photo-description">
+
+				Tohle je fotečka.
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var galleryPictures = { };
+		var galleryLen = 0;
+		$(document).ready(function() {
+
+			$('.photo-for-gallery').each(function () {
+				galleryPictures[galleryLen] = $(this).attr('id');
+				galleryLen++;
+			});
+
+			$('#float-gallery-background').on('click', function() {
+				$('#float-gallery').hide();
+			});
+			$('#float-gallery-button-close').on('click', function() {
+				$('#float-gallery').hide();
+			});
+
+			$('#float-gallery-button-end').on('click', function() {
+				$('#float-gallery').hide();
+			});
+
+			function setPicture(photoForGallery) {
+				$('#float-gallery-photo').attr('src',photoForGallery.attr('src'));
+				$('#float-gallery-photo-description').html(photoForGallery.data('description'));
+				$('#float-gallery-photo-title').html(photoForGallery.attr('title'));
+				actualIndex = -1;
+
+				for(i = 0; i<galleryLen; i++) {
+					if (photoForGallery.attr('id') == galleryPictures[i]) {
+						actualIndex = i;
+						break;
+					}
+				}
+				var nextIndex = (actualIndex+1) % galleryLen;
+				var prevIndex = (galleryLen - 1 + actualIndex) % galleryLen;
+
+				$('#float-gallery-button-next').unbind('click');
+				$('#float-gallery-button-prev').unbind('click');
+				if (nextIndex == 0 || actualIndex == -1) {
+					$('#float-gallery-button-next').hide();
+					$('#float-gallery-button-end').show();
+				} else {
+					$('#float-gallery-button-next').show();
+					$('#float-gallery-button-end').hide();
+					$('#float-gallery-button-next').on('click', function() {
+						setPicture($('#'+galleryPictures[nextIndex]))
+					});
+				}
+				if (actualIndex == 0 || actualIndex == -1) {
+					$('#float-gallery-button-prev').hide();
+				} else {
+					$('#float-gallery-button-prev').show();
+					$('#float-gallery-button-prev').on('click', function() {
+						setPicture($('#'+galleryPictures[prevIndex]))
+					});
+				}
+			}
+
+			$('.photo-for-gallery').on('click', function() {
+				setPicture($(this));
+				$('#float-gallery').show();
+			})
+		})
+
+	</script>
 {/block}

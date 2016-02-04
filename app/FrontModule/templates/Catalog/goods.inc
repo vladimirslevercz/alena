@@ -2,12 +2,20 @@
 	<h2>{$filterName}</h2>
 	<div class="row">
 		{if count($goodsRecommended)}
-			<a n:foreach="$goodsRecommended as $good" n:href=":Front:Goods:show $good->id">
-				<div
-					 class="goods-item recomended-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
-					 style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
-				>
+			<a n:foreach="$goodsRecommended as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">
+				<div class="recommended-item col-lg-4 col-md-6 col-sm-6 col-xs-12" style="margin-bottom: 10px;">
+					<div
+						 class="goods-item"
+						 style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
+					>
+					</div>
 					<div class="goods-name">{$good->name}</div>
+					<div class="goods-info">
+						<i class="glyphicon glyphicon-thumbs-up" title="Doporučujeme"></i>
+						<i n:if="$good->new" class="glyphicon glyphicon-star" title="Novinka"></i>
+						<i n:if="$good->clearance_sale && $good->stock"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
+						<i n:if="$good->stock > 0"><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+					</div>
 				</div>
 			</a>
 		{/if}
@@ -21,6 +29,11 @@
 						>
 					</div>
 					<div class="goods-name">{$good->name}</div>
+					<div class="goods-info">
+						<i n:if="$good->new" class="glyphicon glyphicon-star" title="Novinka"></i>
+						<i n:if="$good->clearance_sale"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
+						<i n:if="$good->stock > 0"><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+					</div>
 				</div>
 			</a>
 		{/if}

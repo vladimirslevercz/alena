@@ -110,6 +110,10 @@ class GoodsPresenter extends BasePresenter
 
 
 		$form->addCheckbox('recommended', 'Je zboží doporučené?');
+		$form->addCheckbox('new', 'Je to novinka?');
+		$form->addCheckbox('clearance_sale', 'Doprodej?');
+
+
 
 		$form->addUpload('photo', 'Přidat obrázek výrobku:');
 
