@@ -14,7 +14,11 @@
 						<i class="glyphicon glyphicon-thumbs-up" title="Doporučujeme"></i>
 						<i n:if="$good->new" class="glyphicon glyphicon-star" title="Novinka"></i>
 						<i n:if="$good->clearance_sale && $good->stock"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
-						<i n:if="$good->stock > 0"><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+						{if $good->stock > 0}
+							<i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+						{elseif $good->stock == 0 && $good->order}
+							<i><img src="{$basePath}/vectors/order-icon.svg" style="height: 20px;" title="Na objednávku"></i>
+						{/if}
 					</div>
 				</div>
 			</a>
@@ -32,7 +36,11 @@
 					<div class="goods-info">
 						<i n:if="$good->new" class="glyphicon glyphicon-star" title="Novinka"></i>
 						<i n:if="$good->clearance_sale"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
-						<i n:if="$good->stock > 0"><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+						{if $good->stock > 0}
+							<i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
+						{elseif $good->stock == 0 && $good->order}
+							<i><img src="{$basePath}/vectors/order-icon.svg" style="height: 20px;" title="Na objednávku"></i>
+						{/if}
 					</div>
 				</div>
 			</a>

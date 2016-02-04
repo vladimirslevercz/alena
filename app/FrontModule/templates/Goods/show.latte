@@ -30,7 +30,7 @@
 					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >20 ks
 					{elseif $good->stock > 5}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >5 ks
 					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem {$good->stock} ks
-					{else}Není skladem{/if}
+					{else}Není skladem{if $good->order}, lze objednat{/if}{/if}
 				</p>
 				<div n:if="$good->price > 0 && $good->showPrice" class="main-price"><span>{$good->price} Kč</span></div>
 			</div>
