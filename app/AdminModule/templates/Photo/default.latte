@@ -13,9 +13,8 @@
 <h1 n:block=title>Fotografie</h1>
     <div class="panel panel-default">
         <div class="panel-heading">
-            {if $goods->category}
-            <span class="label label-info">{$goods->category->name}</span>
-            {/if}
+			{foreach $goods->related('category_goods') as $cg}<span class="label label-info">{$cg->category->name}</span>{sep} {/sep}{/foreach}
+
             {if $goods->manufacturer}{$goods->manufacturer->name} / {/if}
             {$goods->name}
         </div>
@@ -25,6 +24,7 @@
         <a n:href="Goods:default" class="btn btn-default">Výrobky</a>
         <a n:href="Goods:edit $goods->id" class="btn btn-warning">Upravit výrobek</a>
         <a n:href="create $goods->id" class="btn btn-success">Nahrát fotku/y</a>
+		<a n:href=":Front:Goods:show $goods->id" class="btn btn-info" target="_blank"><i class="glyphicon glyphicon-eye-open" title="Zobrazit na webu"></i></a>
     </div>
 {if count($item)}
     <table class="table table-bordered table-responsive">
@@ -47,6 +47,7 @@
                     {$i->description|noescape|striptags|truncate:50}
                 </td>
                 <td>
+					<a n:href="edit $i->id, $goods->id" class="btn btn-warning">Upravit</a>
                     <a n:href="delete $i->id, $goods->id" class="btn btn-danger">Smazat</a>
                 </td>
             </tr>

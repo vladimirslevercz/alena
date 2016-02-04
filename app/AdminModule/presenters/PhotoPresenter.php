@@ -84,6 +84,36 @@ class PhotoPresenter extends BasePresenter
 		$this->redirect('Photo:default', $goodsId);
 	}
 
+	protected function createComponentDescriptionForm()
+	{
+		$form = new UI\Form;
+
+		$form->addText('name', 'Název fotografie:');
+
+		$form->addTextArea('description', 'Popis:')
+			->setAttribute('class', 'tinyMCE');
+
+		$form->addSubmit('save', 'Uložit')
+			->setAttribute('class', 'btn btn-primary');
+
+		$form->onSuccess[] = array($this, 'descriptionFormSucceeded');
+
+		return $form;
+	}
+
+	public function descriptionFormSucceeded(UI\Form $form, $values)
+	{
+		/** @var Nette\Database\Table\ActiveRow $item */
+		$item = $this->item->get($this->getParameter('i'));
+		if ($item) {
+			$item->update($values);
+			$this->flashMessage('Popis fotografie byl upraven.', 'success');
+		} else {
+			$this->flashMessage('Během ukládání došlo k chybě.', 'danger');
+		}
+		$this->redirect('Photo:default', $item->goods->id);
+	}
+
 
 	public function actionDelete($id, $goodsId) {
 		if ($this->item->deletePhoto($id)) {
@@ -92,5 +122,14 @@ class PhotoPresenter extends BasePresenter
 			$this->flashMessage('Smazání se nezdařilo.', 'danger');
 		}
 		$this->redirect('Photo:default', $goodsId);
+	}
+
+	public function actionEdit($i, $goodsId) {
+		$item = $this->item->get($i);
+		if(!$item) {
+			$this->error('Data nebyla nalezena v databázi.', 404);
+		}
+		$this['descriptionForm']->setDefaults($item->toArray());
+		$this->template->item = $item;
 	}
 }
