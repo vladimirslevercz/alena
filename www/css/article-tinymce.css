@@ -1,0 +1,45 @@
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 24px;
+    color: black;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    color:green;
+}
+
+p {
+    color:#222;
+}
+
+table {
+    border: 2px solid #AAA;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 2px 5px;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #F0EFE7;
+    border-bottom: 1px solid #888;
+}
+
+table td {
+    border: 1px solid #DDD;
+}
+

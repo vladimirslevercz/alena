@@ -61,8 +61,12 @@
                 ],
                 height: 400,
                 autoresize_on_init: true,
-                toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons"
-            });</script>
+                toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons",
+                content_css : {$basePath}+'/css/article-tinymce.css',
+                convert_urls: false
+            });
+
+        </script>
 	{/block}
 
 
