@@ -43,3 +43,8 @@ table td {
     border: 1px solid #DDD;
 }
 
+img.photo-frame {
+    border: 6px solid white;
+    box-shadow: 0 0 1px rgba(88,88,99,0.4);
+}
+

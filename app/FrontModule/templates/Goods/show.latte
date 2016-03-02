@@ -1,10 +1,3 @@
-{block jumbotron}
-	<!-- Main component for a primary marketing message or call to action -->
-	<div class="container jumbotron-orange" xmlns:n="http://www.w3.org/1999/xhtml">
-		<h1 n:block="title">{$good->name}{if $good->manufacturer} <small>{$good->manufacturer->name}</small>{/if}</h1>
-	</div>
-{/block}
-
 {block content}
 
 	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
@@ -26,7 +19,8 @@
 				{elseif !$good->stock && $good->clearance_sale}<p>Zboží vyprodáno</p>{/if}
 			</div>
 			<div class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
-				<p>{if $good->stock > 100}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem  >100 ks
+				<p n:if="$good->show_stock || $good->stock">
+					{if $good->stock > 100}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem  >100 ks
 					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >20 ks
 					{elseif $good->stock > 5}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >5 ks
 					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem {$good->stock} ks

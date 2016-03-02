@@ -29,6 +29,14 @@ footer {
     background-image: url('../img/noisy-texture-black-blue.png');
 }
 
+footer a {
+    color: #BBB;
+}
+
+footer a:hover {
+    color: #BBB;
+}
+
 .jumbotron-orange {
     background-image: url('../img/bajcovna.png');
     background-color: #F4F0EE;
