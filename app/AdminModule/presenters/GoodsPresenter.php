@@ -51,16 +51,52 @@ class GoodsPresenter extends BasePresenter
 	 */
 	public $photo;
 
+	/**
+	 * Default page logic
+	 * @param int $page
+	 */
 	public function actionDefault($page = 0) {
 		if (!$this->page || $page) {
 			$this->page = $page;
 		}
 	}
 
+	/**
+	 *  Default page render
+	 */
 	public function renderDefault()
 	{
 		$this->template->item = $this->item->order('manufacturer.name, name')->limit(self::PAGE_LIMIT, $this->page * self::PAGE_LIMIT);
 		$this->template->page = $this->page;
+		$this->template->search = '';
+	}
+
+	/**
+	 * Search page logic
+	 * @param $search
+	 */
+	public function actionSearch($search, $page = 0)
+	{
+		if (!$search) {
+			$this->redirect('default');
+		}
+		if (!$this->page || $page) {
+			$this->page = $page;
+		}
+	}
+
+	/**
+	 * Render search page
+	 * @param $search
+	 */
+	public function renderSearch($search)
+	{
+		$this->setView('default');
+		$this->template->item = $this->item->order('manufacturer.name, name')
+			->where('manufacturer.name LIKE ? OR goods.name LIKE ?', "%$search%", "%$search%")
+			->limit(self::PAGE_LIMIT, $this->page * self::PAGE_LIMIT);
+		$this->template->page = $this->page;
+		$this->template->search = $search;
 	}
 
 	/**
@@ -199,4 +235,25 @@ class GoodsPresenter extends BasePresenter
 		$this->flashMessage('Doporučení výrobku '. $item->name ." bylo změněno.", 'success');
 		$this->redirect('default');
 	}
+
+	/**
+	 * Create Search form
+	 * @return UI\Form
+	 */
+	protected function createComponentSearchForm()
+	{
+		$form = new UI\Form;
+		$form->addText('search', 'Vyhledávání:')
+			->addRule($form::FILLED)
+			->setAttribute('placeholder', 'Název nebo výrobce');
+		$form->addSubmit('send', 'Hledat');
+		$form->onSuccess[] = array($this, 'searchFormSucceeded');
+		return $form;
+	}
+
+	public function searchFormSucceeded(UI\Form $form, $values)
+	{
+		$this->redirect('search', $values['search']);
+	}
+
 }

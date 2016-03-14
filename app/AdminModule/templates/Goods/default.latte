@@ -5,9 +5,26 @@
 {block content}
 
 <h1 n:block=title>Výrobek</h1>
+    <div class="pull-left">
+        {control searchForm}
+    </div>
     <div class="pull-right">
         <a n:href="create" class="btn btn-success">Nový výrobek</a>
     </div>
+    <div class="clearfix"></div>
+
+    <div class="pull-right">
+    {if $search}
+        <p class="right">
+            Výsledky vyhledávání "<b>{$search}</b>".
+            <a n:href="default" class="btn btn-sm btn-default">Všechny výrobky</a>
+        </p>
+    {/if}
+        <p class="right">
+            Zobrazeno {count($item)} výrobků. {if $page > 0}Strana {($page + 1)}.{/if}
+        </p>
+    </div>
+
 {if count($item)}
     <table class="table table-bordered table-responsive">
         <thead>
@@ -56,17 +73,28 @@
     </table>
 
     <div class="pull-right">
-        {if $page > 0}
-        <a n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-        {else}
-        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-        {/if}
+        {if $search}
+            {if $page > 0}
+            <a n:href="search $search, ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {else}
+            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {/if}
 
-        {$page*50 + 1} až {($page+1)*50}
-        <a n:href="default ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+            {$page*50 + 1} až {($page+1)*50}
+            <a n:href="search $search, ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        {else}
+            {if $page > 0}
+                <a n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {else}
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {/if}
+
+            {$page*50 + 1} až {($page+1)*50}
+            <a n:href="default ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        {/if}
     </div>
 {else}
-    <p>Žádné výrobky.</p>
+    <p>Žádné výrobky. <a n:href="default">Zobrazit všechny</a>.</p>
     {if $page}
     <a n:href="default" class="btn btn-default">Zpět na první stránku</a>
     {/if}
