@@ -38,7 +38,7 @@
 			<h4>Podle značek</h4>
 			<ul>
 				<li n:foreach="$manufacturers as $manufacturer" {if $manufacturer->id == $selectedManufacturerId} class="active"{/if}>
-					<a n:href="filter null, $manufacturer->id">{$manufacturer->name}</a>
+					<a href="{link filter null, $manufacturer->id}#maincontent">{$manufacturer->name}</a>
 				</li>
 			</ul>
 		</div>

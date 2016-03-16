@@ -1,4 +1,5 @@
 <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 goods-items">
+	<p n:if="$filterName == 'Doporučené'" class="alert alert-warning" style="margin-top: 10px">Katalog se připravuje.</p>
 	<h2>{$filterName}</h2>
 	<div class="row">
 		{if count($goodsRecommended)}
