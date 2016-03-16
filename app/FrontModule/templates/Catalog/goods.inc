@@ -35,7 +35,7 @@
 					<div class="goods-name">{$good->name}</div>
 					<div class="goods-info">
 						<i n:if="$good->new" class="glyphicon glyphicon-star" title="Novinka"></i>
-						<i n:if="$good->clearance_sale"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
+						<i n:if="$good->clearance_sale && $good->stock"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
 						{if $good->stock > 0}
 							<i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
 						{elseif $good->stock == 0 && $good->order}

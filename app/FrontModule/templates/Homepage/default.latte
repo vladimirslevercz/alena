@@ -1,15 +1,90 @@
 {block content}
-	<h1>Vítejte</h1>
-	<p>Vítejte na stránkách Alena.cz, vašecm obchodu s pracovními oděvy.</p>
 
-	<img src="{$basePath}/img/bajcovna-homepage.jpg" class="photo-center photo-frame">
+	<div class="col-lg-offset-2 col-lg-5 col-md-offset-1 col-md-7 col-xs-9" style="padding:20px 0 20px 0;">
+		<h2>Pracovní oděvy, ochranné pomůcky Alena</h2>
+		<div style="text-align: justify">
+			<p>Vítáme Vás na stránkách ryze české rodinné firmy založené v roce 1993 zabývající se výrobou a prodejem širokého sortimentu jak <b>pracovních oděvů</b>, tak pro volný čas, dále pak <b>ochranných pomůcek</b> a <b>obuvi</b>.</p>
+			<p>Vlastní výroba ve Struhařově u Benešova je zaměřena na šití pracovních oděvů pro firemní i individuální zákazníky dle jejich požadavků a to i nekonfekční velikosti. Zajistíme potisk či výšivku vašeho loga.</p>
+			<p>Tyto webové stránky obsahují vybrané nejvíce prodávané produkty.  Náš sortiment je neustále doplňován. Jsme však schopni dodat i řadu výrobků zde neuvedených.</p>
+			<p>Zakládáme si na individuálním přístupu k zákazníkům.  Kontaktujte nás nebo navštivte naše prodejny. Rádi se Vám budeme věnovat.</p>
+		</div>
+	</div>
+
+	<div class="col-lg-offset-1 col-lg-2 col-md-2 col-xs-3" style="padding:20px 0 20px 0;">
+		<img src="{$basePath}/img/pandulak.png" style="width: 100%" />
+
+	</div>
+
+	<div class="clearfix"></div>
+	<div class="goods-similar">
+		<div class="container">
+			<span class="recommended-heading">Doporučujeme</span>
+		</div>
+		<div class="clearfix"></div>
+
+		<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="text-align: left">
+			<img src="{$basePath}/img/klarka.png" style="height: 130px"/>
+		</div>
+		<div id="mainRecommended">
+			<a n:foreach="$goodsRecommended as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom: 10px;">
+					<div
+							class="goods-similar-item"
+							style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
+					>
+					</div>
+					<div class="goods-similar-name">{$good->name}</div>
+				</div>
+			</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
 
 
 
 
 {/block}
 
-{block scripts}
+{block style}
+<style>
+	div#mainRecommended {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	div#mainRecommended [class*="col"], /* TWBS v3 */
+	div#mainRecommended [class*="span"] {  /* TWBS v2 */
+		display: inline-block;
+		float: none; /* Very important */
+	}
+</style>
+{/block}
 
+{block scripts}
+{include #parent}
+<script>
+	$(document).ready( function () {
+			play();
+	});
+
+	function play() {
+		var w = getInnerWidth($("#mainRecommended"));
+		$("#mainRecommended").stop().animate({
+			scrollLeft: w
+		}, '10000', 'swing')
+	};
+	function rewind() {
+		$("#mainRecommended").stop().animate({
+			scrollLeft: 0
+		}, '500', 'swing', function () {
+
+		});
+	};
+
+	function getInnerWidth(element) {
+		return element[0].scrollWidth;
+	}
+
+</script>
 
 {/block}

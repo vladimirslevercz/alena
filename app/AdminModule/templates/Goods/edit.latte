@@ -10,4 +10,17 @@
     <hr />
     <a n:href="default" class="btn btn-default pull-right">Zrušit</a>
     <a n:href="default" class="btn btn-default pull-right">Odejít</a>
+
+    <script>
+        $("#frm-itemForm-stock").on('change', function() {
+
+            if ( $("#frm-itemForm-stock").is( ":checked" ) )
+                $("#frm-itemForm-order").prop( "checked", false );
+        })
+
+        $("#frm-itemForm-order").on('change', function() {
+            if ( $("#frm-itemForm-order").is( ":checked" ) )
+                $("#frm-itemForm-stock").prop( "checked", false );
+        })
+    </script>
 {/block}

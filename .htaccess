@@ -3,3 +3,7 @@ RewriteCond %{HTTP_HOST} ^(www\.)?randova\.cz$
 RewriteRule ^$ www/ [L]
 RewriteCond %{HTTP_HOST} ^(www\.)?randova\.cz$
 RewriteRule (.*) www/$1 [L]
+RewriteCond %{HTTP_HOST} ^(www\.)?alena\.cz$
+RewriteRule ^$ www/ [L]
+RewriteCond %{HTTP_HOST} ^(www\.)?alena\.cz$
+RewriteRule (.*) www/$1 [L]

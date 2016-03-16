@@ -13,18 +13,14 @@
 			</div>
 			<hr class="hidden-lg"/>
 			<div class="col-lg-4 col-md-7 col-sm-6 col-xs-12">
-				{if $good->recommended}<p class="we-recommend"><i class="glyphicon glyphicon-thumbs-up" title="Dopuručujeme"></i> Doporučujeme.</p>{/if}
+				{if $good->recommended}<p class="we-recommend"><i class="glyphicon glyphicon-thumbs-up" title="Dopuručujeme"></i> Doporučujeme</p>{/if}
 				{if $good->new}<p class="novinka">novinka</p>{/if}
-				{if $good->stock && $good->clearance_sale}<p>Probíhá doprodej</p>
-				{elseif !$good->stock && $good->clearance_sale}<p>Zboží vyprodáno</p>{/if}
+				{if $good->stock && $good->clearance_sale}<p>Probíhá doprodej</p>{/if}
 			</div>
 			<div class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
-				<p n:if="$good->show_stock || $good->stock">
-					{if $good->stock > 100}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem  >100 ks
-					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >20 ks
-					{elseif $good->stock > 5}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem >5 ks
-					{elseif $good->stock > 20}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem"> skladem {$good->stock} ks
-					{else}Není skladem{if $good->order}, lze objednat{/if}{/if}
+				<p>
+					{if $good->stock > 0}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem">Skladem{/if}
+					{if $good->order}Na objednávku{/if}
 				</p>
 				<div n:if="$good->price > 0 && $good->showPrice" class="main-price"><span>{$good->price} Kč</span></div>
 			</div>

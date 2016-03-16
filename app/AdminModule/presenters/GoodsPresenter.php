@@ -133,9 +133,6 @@ class GoodsPresenter extends BasePresenter
 
 		$form->addSelect('manufacturer_id', 'Výrobce', $manufacturers)->setDefaultValue('');
 
-		$form->addText('stock', 'Kusů skladem')->setType('number')->setDefaultValue(0)
-			->addRule($form::RANGE, 'Zadejte celé kladné číslo nebo nulu.', array(0, 1000000000));
-
 		$form->addCheckbox('showPrice', 'Zobrazovat cenu?')
 			->addCondition($form::EQUAL, TRUE)
 				->toggle('price');
@@ -148,6 +145,7 @@ class GoodsPresenter extends BasePresenter
 		$form->addCheckbox('recommended', 'Je zboží doporučené?');
 		$form->addCheckbox('new', 'Je to novinka?');
 		$form->addCheckbox('clearance_sale', 'Doprodej?');
+		$form->addCheckbox('stock', 'Skladem?');
 		$form->addCheckbox('order', 'Na objednávku?');
 
 

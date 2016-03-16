@@ -57,7 +57,11 @@ footer a:hover {
 }
 
 .main-container {
-    background: #C63 url('../img/noisy-texture-white-orange.png');
+    /*background-color: #C63;*/
+    background-image: url('../img/canvas_bg.jpg');
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-size: 200px 200px;
     padding-bottom: 40px;
 }
 
@@ -68,11 +72,14 @@ footer a:hover {
 
 
 footer .partners {
-    font-size: 40px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 20px;
     color: #DDD;
+}
+footer .partners img {
+    height: 47px;
+    margin: 5px 3px 8px 3px;
 }
 
 li {
@@ -199,14 +206,14 @@ h3 {
 }
 
 a {
-    color:green;
+    color:royalblue;
 }
 
 .top-menu {
     background: white;
     margin-bottom: 1em;
     padding: 8px 10px 8px 10px;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid royalblue;
 }
 
 .top-menu a {
@@ -218,10 +225,10 @@ a {
 }
 
 .top-menu a:hover {
-    background: #FFF9F5;
-    border-bottom:2px solid #FFAA00;
+    background: #FFFFF5;
+    border-bottom:2px solid #FFFF00;
     text-decoration: none;
-    color: darkgreen;
+    color: darkblue;
 }
 
 .side-menu {
@@ -361,6 +368,11 @@ p.we-recommend {
 
 .similar-heading {
     color: #999;
+    margin-top: -5px;
+}
+
+.recommended-heading {
+    color: #D99;
     margin-top: -5px;
 }
 

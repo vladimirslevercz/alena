@@ -22,10 +22,10 @@
 			<h4>Podle kategorií</h4>
 			<ul>
 				<li n:foreach="$categories as $category" {if $category->id == $selectedCategoryId} class="active"{/if}>
-					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: silver"{/if}></i> <a n:href="filter $category->id, null">{$category->name}</a>
+					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: silver"{/if}></i><a href="{link filter $category->id, null}#maincontent">{$category->name}</a>
 					<ul n:if="count($category->related('category.parent'))" class="subcategory"{if $category->id != $selectedCategoryId} style="display: none"{/if}>
 						<li n:foreach="$category->related('category.parent') as $subcategory" {if $subcategory->id == $selectedSubCategoryId} class="active"{/if}>
-							<a n:href="filter $subcategory->id, null">{$subcategory->name} {$selectedCategoryId}</a>
+							<a href="{link filter $subcategory->id, null}#maincontent">{$subcategory->name}</a>
 						</li>
 					</ul>
 				</li>
