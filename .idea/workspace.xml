@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
+    <list default="true" id="377d03bd-d70b-492b-8d68-85a5f118752d" name="Default" comment="Paginator v Admin:Goods:deafult vylepsen">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/alena.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/front.css" afterPath="$PROJECT_DIR$/www/css/front.css" />
     </list>
     <ignored path="alena.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,33 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goods.inc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03846154">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.4527297">
+              <caret line="265" column="21" selection-start-line="265" selection-start-column="21" selection-end-line="265" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -104,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/model/Category.php" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Category/children.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Category/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/create.latte" />
@@ -144,17 +125,18 @@
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/www/css/article-tinymce.css" />
-        <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/GoodsPresenter.php" />
         <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/edit.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Goods/show.latte" />
-        <option value="$PROJECT_DIR$/www/css/front.css" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Error/410.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte" />
+        <option value="$PROJECT_DIR$/www/css/front.css" />
       </list>
     </option>
   </component>
@@ -224,38 +206,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -277,6 +227,10 @@
               <option name="myItemId" value="FrontModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -293,10 +247,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FrontModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,9 +258,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="fro&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;front&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;tin&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/article-tinymce.css&#10;fron&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;t&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/article-tinymce.css&#10;homepa&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/FrontModule/presenters/HomepagePresenter.php&#10;naviga&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc&#10;fr&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;front.&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;conf&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/config/config.local.neon&#10;ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
+    <property name="SearchEverywhereHistoryKey" value="front&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;fro&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;tin&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/article-tinymce.css&#10;fron&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;t&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/article-tinymce.css&#10;homepa&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/FrontModule/presenters/HomepagePresenter.php&#10;naviga&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc&#10;fr&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;front.&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/www/css/front.css&#10;conf&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/config/config.local.neon&#10;ini&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/init.sql&#10;init&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/init.sql&#10;gitigno&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/.gitignore&#10;contributing&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/vendor/nette/bootstrap/contributing.txt&#10;navi&#9;FILE&#9;file:///Users/vml/Zend/workspaces/DefaultWorkspace11/alena/app/AdminModule/templates/navigation.inc" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -511,7 +461,19 @@
       <option name="project" value="LOCAL" />
       <updated>1458167166618</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Oprava odkazu názvu firmy. Přidána vystraha o katalogu.">
+      <created>1458168807616</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1458168807616</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Paginator v Admin:Goods:deafult vylepsen">
+      <created>1460053567070</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1460053567070</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -528,17 +490,17 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24320458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -562,6 +524,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="INIT nette, init DB" />
     <MESSAGE value="gitignore" />
@@ -583,7 +546,9 @@
     <MESSAGE value="Změny dle emailu." />
     <MESSAGE value="Vyhledávání mezi výrobky v administraci." />
     <MESSAGE value="Finalizace u Seidlu doma." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizace u Seidlu doma." />
+    <MESSAGE value="Oprava odkazu názvu firmy. Přidána vystraha o katalogu." />
+    <MESSAGE value="Paginator v Admin:Goods:deafult vylepsen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paginator v Admin:Goods:deafult vylepsen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,13 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/css/front.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -858,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3470437">
-          <caret line="18" column="52" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/img/canvas_bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -909,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125">
           <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.875">
           <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,35 +874,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0">
           <caret line="49" column="43" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="43" />
-          <folding>
-            <marker date="1452820709000" expanded="true" signature="2331:2521" placeholder="SELECT g.id category_goods" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/front.css">
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Error/410.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.11568123">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Goods/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.39946738">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/goods.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03846154">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.48971722">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/filter.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3251928">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/front.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4527297">
+          <caret line="265" column="21" selection-start-line="265" selection-start-column="21" selection-end-line="265" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

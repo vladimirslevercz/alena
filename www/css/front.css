@@ -235,6 +235,9 @@ a {
     max-height: 100vh;
     overflow: auto;
     padding: 10px 0 10px 0;
+    background: #FFFDD3;
+    margin-left: -15px;
+    padding-left: 15px;
 }
 
 .goods-items {
@@ -255,10 +258,12 @@ a {
 }
 
 .categories li.active, .manufacturers li.active {
-    background: #EEE;
+    background: #FF8;
+    border-radius: 5px;
 }
 .categories .subcategory li.active a {
     color: black;
+    font-weight: bold;
 }
 
 #float-gallery {
