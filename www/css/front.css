@@ -171,6 +171,24 @@ li {
     margin-top: 3px;
     margin-bottom: 8px;
 }
+
+.goods-item .flags .flag {
+    display: inline-block;
+    margin: 3px 3px 3px -4px;
+    padding: 0px 5px 0px 5px ;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: smaller;
+}
+.goods-item .flags .new-item {
+    background: red;
+    color: white;
+    box-shadow: 3px 0px 3px rgba(255,0,0,1);
+    border-left: 3px solid darkred;
+    border-radius: 0px 1px 1px 0;
+}
+
+
 .photo-center {
     width: 80%;
     min-width: 150px;
