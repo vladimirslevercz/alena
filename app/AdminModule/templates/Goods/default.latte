@@ -26,6 +26,19 @@
     </div>
 
 {if count($item)}
+    <div class="clearfix"></div>
+    <div class="pull-right">
+        {if $search}
+                <a n:if="$page > 0" n:href="search $search, ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {$page*50 + 1} až {if count($item) == 50}{($page+1)*50}{else}{($page)*50 + count($item)}{/if}
+            <a n:if="count($item) == 50" n:href="search $search, ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        {else}
+            <a n:if="$page > 0" n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+
+            {$page*50 + 1} až {if count($item) == 50}{($page+1)*50}{else}{($page)*50 + count($item)}{/if}
+            <a n:href="default ($page+1)" n:if="count($item) == 50" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        {/if}
+    </div>
     <table class="table table-bordered table-responsive">
         <thead>
             <th>Výrobce</th>
@@ -74,23 +87,14 @@
 
     <div class="pull-right">
         {if $search}
-            {if $page > 0}
-            <a n:href="search $search, ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-            {else}
-            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-            {/if}
-
-            {$page*50 + 1} až {($page+1)*50}
-            <a n:href="search $search, ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+            <a n:if="$page > 0" n:href="search $search, ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
+            {$page*50 + 1} až {if count($item) == 50}{($page+1)*50}{else}{($page)*50 + count($item)}{/if}
+            <a n:if="count($item) == 50" n:href="search $search, ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
         {else}
-            {if $page > 0}
-                <a n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-            {else}
-                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
-            {/if}
+            <a n:if="$page > 0" n:href="default ($page-1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i></a>
 
-            {$page*50 + 1} až {($page+1)*50}
-            <a n:href="default ($page+1)" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
+            {$page*50 + 1} až {if count($item) == 50}{($page+1)*50}{else}{($page)*50 + count($item)}{/if}
+            <a n:href="default ($page+1)" n:if="count($item) == 50" class="btn btn-default"><i class="glyphicon glyphicon-arrow-right"></i></a>
         {/if}
     </div>
 {else}
