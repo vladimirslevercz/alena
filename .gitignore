@@ -3,6 +3,7 @@
 .idea
 /.idea
 .idea/*
+/.idea/workspace.xml
 *.DS_Store
 /app/config/config.local.neon
 /www/content/*

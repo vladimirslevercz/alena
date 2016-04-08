@@ -10,13 +10,13 @@
 						 style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.big.jpg');{/foreach}"
 					>
 						<div class="flags">
-							<span n:if="$good->new" class="flag new-item">NOVINKA</span>
+							<span n:if="$good->new" class="flag new-item">NOVINKA</span><br />
+							<span n:if="$good->clearance_sale" class="flag clearance-sale-item">DOPRODEJ</span>
 						</div>
 					</div>
 					<div class="goods-name">{$good->name}</div>
 					<div class="goods-info">
 						<i class="glyphicon glyphicon-thumbs-up" title="Doporučujeme"></i>
-						<i n:if="$good->clearance_sale && $good->stock"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
 						{if $good->stock > 0}
 							<i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
 						{elseif $good->stock == 0 && $good->order}

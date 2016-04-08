@@ -88,8 +88,9 @@ li {
 
 .goods-item, .goods-similar-item {
     height: 200px;
-    background-size: cover;
-    background-position: top left;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     backgrond-color: #DDD;
     opacity: 0.9;
     transition: opacity 0.3s, background-position 3s;
@@ -97,11 +98,6 @@ li {
 }
 .goods-similar-item {
     height: 100px;
-}
-
-.goods-item:hover, .goods-similar-item:hover {
-    opacity: 1.0;
-    background-position: bottom right;
 }
 
 .goods-name {
@@ -179,13 +175,20 @@ li {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: smaller;
+    border-radius: 0px 1px 1px 0;
 }
 .goods-item .flags .new-item {
     background: red;
     color: white;
     box-shadow: 3px 0px 3px rgba(255,0,0,1);
     border-left: 3px solid darkred;
-    border-radius: 0px 1px 1px 0;
+}
+
+.goods-item .flags .clearance-sale-item {
+    background: orangered;
+    color: white;
+    box-shadow: 3px 0px 3px orangered;
+    border-left: 3px solid #b33000;
 }
 
 
