@@ -48,7 +48,7 @@ class CatalogPresenter extends BasePresenter
 		$this->template->goodsRecommended =  array();
 		$this->template->goodsOther =  array();
 		$this->template->selectedCategoryId = null;
-		$this->template->selectedSubCategoryId = null;
+		$this->template->selectedSubcategoryId = null;
 		$this->template->selectedManufacturerId = null;
 	}
 
@@ -69,7 +69,38 @@ class CatalogPresenter extends BasePresenter
 		$this->template->selectedManufacturerId = $manufacturerId;
 
 		if ($categoryId && $manufacturerId) {
-			// TODO
+			$category = $this->category->createSelectionInstance()->get($categoryId);
+			$manufacturer = $this->manufacturer->get($manufacturerId);
+			if (!$category || !$manufacturer) {
+				$this->flashMessage('Kategorie nebo výrobce nebyl nalezen.', 'warning');
+			} else {
+				$parentCategory = $category->parent ? $this->category->createSelectionInstance()->get($category->parent) : null;
+				$this->template->filterName = ($parentCategory ? $parentCategory->name . ' - ' : '') . $category->name . " od " . $manufacturer->name;
+
+				$in = $category . ',';
+
+				$subcategories = $category->related('category.parent');
+				foreach ($subcategories as $subcategory) {
+					$in .= $subcategory . ',';
+				}
+
+				$in = rtrim($in, ',');
+				$sql = "SELECT g.id
+						FROM category_goods cg
+						JOIN goods g ON cg.`goods_id` = g.id
+						JOIN category c ON cg.`category_id` = c.id
+						WHERE cg.`category_id` IN ($in) AND g.`manufacturer_id` = $manufacturerId AND g.recommended = ";
+
+				$this->template->goodsRecommended = $this->good->createSelectionInstance()->where('id', $this->database->getConnection()->query($sql . "1 GROUP BY id")->fetchPairs());
+				$this->template->goodsOther = $this->good->createSelectionInstance()->where('id', $this->database->getConnection()->query($sql . "0 GROUP BY id")->fetchPairs());
+
+				if ($category->parent) {
+					$this->template->selectedCategoryId = $category->parent;
+					$this->template->selectedSubCategoryId = $categoryId;
+				} else {
+					$this->template->selectedCategoryId = $categoryId;
+				}
+			}
 		} elseif ($categoryId) {
 			$category = $this->category->createSelectionInstance()->get($categoryId);
 			if (!$category) {
@@ -103,7 +134,7 @@ class CatalogPresenter extends BasePresenter
 				}
 			}
 
-		} else {
+		} elseif ($manufacturerId) {
 			$manufacturer = $this->manufacturer->get($manufacturerId);
 			if (!$manufacturer) {
 				$this->flashMessage('Výrobce nebyl nalezen.', 'warning');
@@ -113,6 +144,8 @@ class CatalogPresenter extends BasePresenter
 				$this->template->goodsOther = $this->good->createSelectionInstance()->where('manufacturer_id = ? AND recommended = 0', $manufacturerId)->order('id DESC');
 				$this->template->selectedManufacturer = $manufacturerId;
 			}
+		} else {
+			$this->redirect("default");
 		}
 
 

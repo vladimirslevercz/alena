@@ -438,3 +438,16 @@ table.opening-hours td {
     font-size: medium;
     top: 3px;
 }
+a.filter-add {
+    font-size: smaller;
+    color: silver!important;
+    font-weight: 300!important;
+    margin-right: 3px;
+    letter-spacing: 0.2px;
+}
+a.filter-rem {
+    font-size: smaller;
+    color: #9f9f9f !important;
+    font-weight: 400!important;
+    margin-right: 3px;
+}

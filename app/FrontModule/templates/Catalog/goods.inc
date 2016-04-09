@@ -1,10 +1,11 @@
 <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 goods-items">
+	<a name="goods"></a>
 	<p n:if="$filterName == 'Doporučené'" class="alert alert-warning" style="margin-top: 10px">Katalog se připravuje.</p>
 	<p n:if="$filterName != 'Doporučené'" class="pull-right legend">
 		<b>Legenda</b>
 		doporučujeme <i class="glyphicon glyphicon-thumbs-up" title="Doporučujeme"></i>&nbsp;&nbsp;
-		skladem <i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>&nbsp;&nbsp;
-		na objednávku <i><img src="{$basePath}/vectors/order-icon.svg" style="height: 20px;" title="Na objednávku"></i>&nbsp;&nbsp;
+		skladem <i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 15px;" title="Skladem"></i>&nbsp;&nbsp;
+		na objednávku <i><img src="{$basePath}/vectors/order-icon.svg" style="height: 15px;" title="Na objednávku"></i>&nbsp;&nbsp;
 	</p>
 	<h2>{$filterName}</h2>
 	<div class="row">

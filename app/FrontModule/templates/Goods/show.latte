@@ -1,11 +1,14 @@
 {block content}
-
-	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+	<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12" xmlns:n="http://www.w3.org/1999/xhtml">
 		<h2>{$good->name}{if $good->manufacturer} <small>{$good->manufacturer->name}</small>{/if}</h2>
 		<div class="good-navigation">
 			<div class="col-lg-3 col-md-7 col-sm-6 col-xs-6">
 				kategorie<br />
-				{foreach $good->related('category_goods') as $cg}<a n:href="Catalog:filter $cg->category->id, null">{$cg->category->name}</a>{sep}, {/sep}{/foreach}
+				{foreach $good->related('category_goods') as $cg}
+					{if $cg->category->parent}<a n:href="Catalog:filter $cg->category->parent, null">{$cg->category->ref('category', 'parent')->name}</a> / {/if}
+					<a n:href="Catalog:filter $cg->category->id, null">{$cg->category->name}</a>
+					{sep}<br /> {/sep}
+				{/foreach}
 			</div>
 			<div class="col-lg-2 col-md-5 col-sm-6 col-xs-6">
 				výrobce<br />

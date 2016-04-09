@@ -23,9 +23,13 @@
 			<ul>
 				<li n:foreach="$categories as $category" {if $category->id == $selectedCategoryId} class="active"{/if}>
 					<i class="glyphicon glyphicon-chevron-right clickable{if $category->id == $selectedCategoryId} rotate-90{/if}" {if !count($category->related('category.parent'))}style="color: silver"{/if}></i><a href="{link filter $category->id, null}#maincontent">{$category->name}</a>
+					<a n:if="$selectedManufacturerId && $category->id != $selectedSubcategoryId" href="{link filter $category->id, $selectedManufacturerId}#goods" class="pull-right filter-add">filtr</a>
+					<a n:if="$category->id == $selectedSubcategoryId" href="{link filter null, $selectedManufacturerId}#goods" class="pull-right filter-rem">zrušit</a>
 					<ul n:if="count($category->related('category.parent'))" class="subcategory"{if $category->id != $selectedCategoryId} style="display: none"{/if}>
-						<li n:foreach="$category->related('category.parent') as $subcategory" {if $subcategory->id == $selectedSubCategoryId} class="active"{/if}>
-							<a href="{link filter $subcategory->id, null}#maincontent">{$subcategory->name}</a>
+						<li n:foreach="$category->related('category.parent') as $subcategory" {if $subcategory->id == $selectedSubcategoryId} class="active"{/if}>
+							<a href="{link filter $subcategory->id, null}#goods">{$subcategory->name}</a>
+							<a n:if="$selectedManufacturerId && $subcategory->id != $selectedSubcategoryId" href="{link filter $subcategory->id, $selectedManufacturerId}#goods" class="pull-right filter-add">filtr</a>
+							<a n:if="$subcategory->id == $selectedSubcategoryId" href="{link filter null, $selectedManufacturerId}#goods" class="pull-right filter-rem">zrušit</a>
 						</li>
 					</ul>
 				</li>
@@ -38,7 +42,9 @@
 			<h4>Podle značek</h4>
 			<ul>
 				<li n:foreach="$manufacturers as $manufacturer" {if $manufacturer->id == $selectedManufacturerId} class="active"{/if}>
-					<a href="{link filter null, $manufacturer->id}#maincontent">{$manufacturer->name}</a>
+					<a href="{link filter null, $manufacturer->id}#goods">{$manufacturer->name}</a>
+					<a n:if="$selectedCategoryId && $manufacturer->id != $selectedManufacturerId" href="{link filter $selectedSubcategoryId, $manufacturer->id}#goods" class="pull-right filter-add">filtr</a>
+					<a n:if="$manufacturer->id == $selectedManufacturerId" href="{link filter $selectedSubcategoryId, null}#goods" class="pull-right filter-rem">zrušit</a>
 				</li>
 			</ul>
 		</div>
