@@ -137,7 +137,7 @@ class GoodsPresenter extends BasePresenter
 			->addCondition($form::EQUAL, TRUE)
 				->toggle('price');
 
-		$form->addText('price', 'Cena za ks')->setType('number')->setDefaultValue(0)
+		$form->addText('price', 'Cena za ks včetně DPH')->setType('number')->setDefaultValue(0)
 			->setOption('id', 'price')
 			->addRule($form::RANGE, 'Cena nemůže být záporná.', array(0, 1000000000));
 

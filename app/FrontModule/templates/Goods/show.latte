@@ -22,7 +22,10 @@
 					{if $good->stock > 0}<img src="{$basePath}/vectors/stock-icon.svg" style="height: 30px;" title="Skladem">Skladem{/if}
 					{if $good->order}Na objednávku{/if}
 				</p>
-				<div n:if="$good->price > 0 && $good->showPrice" class="main-price"><span>{$good->price} Kč</span></div>
+				<div n:if="$good->price > 0 && $good->showPrice" class="main-price">
+					<span class="including-DPH">{$good->price} Kč</span>
+					<span class="without-DPH">bez DPH {($good->price*(100-$DPH)*0.01)|number:2,',':''} Kč</span>
+				</div>
 			</div>
 
 
@@ -82,8 +85,7 @@
 				Název
 			</div>
 			<div id="float-gallery-photo-description">
-
-				Tohle je fotečka.
+				Popis fotografie.
 			</div>
 		</div>
 	</div>

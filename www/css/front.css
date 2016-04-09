@@ -379,8 +379,9 @@ p.we-recommend {
 
 .main-price {
     text-align: center;
+    font-size: smaller;
 }
-.main-price span {
+.main-price span.including-DPH {
     color: #DD0000;
     font-weight: bolder;
     font-size: larger;
@@ -390,6 +391,13 @@ p.we-recommend {
     border: 2px solid #EEDD33;
     border-top-color: #F8EE44;
     border-bottom-color: #E0D810;
+}
+.main-price span.without-DPH {
+    display: block;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .similar-heading {
@@ -418,4 +426,15 @@ table.opening-hours th {
 table.opening-hours td {
     border: 1px solid #DDD;
     padding: 2px 5px;
+}
+
+.legend {
+    font-size: smaller;
+    color: #555;
+    margin-top: 15px;
+}
+.legend .glyphicon-thumbs-up {
+    color: royalblue;
+    font-size: medium;
+    top: 3px;
 }

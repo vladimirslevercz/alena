@@ -12,6 +12,10 @@ use Nette,
 abstract class BasePresenter extends Nette\Application\UI\Presenter
 {
 	/**
+	 * DPH in percent, 21%
+	 */
+	const DPH = 21;
+	/**
 	 * @var Model\Article
 	 * @inject
 	 */
@@ -20,5 +24,6 @@ abstract class BasePresenter extends Nette\Application\UI\Presenter
 	public function beforeRender()
 	{
 		$this->template->articles = $this->article->where('menu IS NOT NULL');
+		$this->template->DPH = self::DPH;
 	}
 }

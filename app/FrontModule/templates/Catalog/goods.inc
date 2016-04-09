@@ -1,5 +1,11 @@
 <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 goods-items">
 	<p n:if="$filterName == 'Doporučené'" class="alert alert-warning" style="margin-top: 10px">Katalog se připravuje.</p>
+	<p n:if="$filterName != 'Doporučené'" class="pull-right legend">
+		<b>Legenda</b>
+		doporučujeme <i class="glyphicon glyphicon-thumbs-up" title="Doporučujeme"></i>&nbsp;&nbsp;
+		skladem <i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>&nbsp;&nbsp;
+		na objednávku <i><img src="{$basePath}/vectors/order-icon.svg" style="height: 20px;" title="Na objednávku"></i>&nbsp;&nbsp;
+	</p>
 	<h2>{$filterName}</h2>
 	<div class="row">
 		{if count($goodsRecommended)}
@@ -35,12 +41,12 @@
 						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
 						>
 						<div class="flags">
-							<span n:if="$good->new" class="flag new-item">NOVINKA</span>
+							<span n:if="$good->new" class="flag new-item">NOVINKA</span><br />
+							<span n:if="$good->clearance_sale" class="flag clearance-sale-item">DOPRODEJ</span>
 						</div>
 					</div>
 					<div class="goods-name">{$good->name}</div>
 					<div class="goods-info">
-						<i n:if="$good->clearance_sale && $good->stock"><img src="{$basePath}/vectors/vyprodej-icon.svg" style="height: 20px;" title="Doprodej"></i>
 						{if $good->stock > 0}
 							<i><img src="{$basePath}/vectors/stock-icon.svg" style="height: 20px;" title="Skladem"></i>
 						{elseif $good->stock == 0 && $good->order}
