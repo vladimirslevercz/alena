@@ -79,6 +79,7 @@
                     <abbr title="Změnit doporučení"><a n:href="toggleRecommended $i->id" class="btn btn-warning"><i class="glyphicon glyphicon-thumbs-up"></i></a></abbr>
                     <a n:href="delete $i->id" class="btn btn-danger">Smazat</a>
                     <abbr title="Fotky výrobku"><a n:href="Photo:default $i->id" class="btn btn-default"><i class="glyphicon glyphicon-camera"></i></a></abbr>
+					<abbr title="Přidat akci"><a n:href="Sale:create $i->id" class="btn btn-success"><i class="glyphicon glyphicon-play-circle"></i> akce</a></abbr>
                 </td>
             </tr>
             {/foreach}

@@ -30,5 +30,6 @@ services:
 	category: App\Model\Category
 	categoryGoods: App\Model\CategoryGoods
 	menu: App\Model\Menu
+	sale: App\Model\Sale
 	database: @Nette\Database\Context
 

@@ -1,4 +1,4 @@
-<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 goods-items">
+<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 goods-items" xmlns:n="http://www.w3.org/1999/xhtml">
 	<a name="goods"></a>
 	<p n:if="$filterName == 'Doporučené'" class="alert alert-warning" style="margin-top: 10px">Katalog se připravuje.</p>
 	<p n:if="$filterName != 'Doporučené'" class="pull-right legend">

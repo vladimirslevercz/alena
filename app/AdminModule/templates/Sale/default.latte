@@ -1,0 +1,62 @@
+{**
+ * Listing articles
+ * @var $article database connection to articles
+ *}
+{block content}
+
+<h1 n:block=title>Články</h1>
+    <div class="pull-right">
+        <a n:href="Goods:default" class="btn btn-success">Vybrat výrobek do nové akce</a>
+    </div>
+{if count($sales)}
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <th>Zboží</th>
+			<th>Popis</th>
+            <th>Styl</th>
+            <th>Vytvořeno</th>
+            <th>Začátek</th>
+			<th>Konec</th>
+			<th>Aktivní</th>
+			<th>Akce</th>
+		</thead>
+        <tbody>
+            {foreach $sales as $s}
+            <tr>
+                <td>
+					{$s->goods->manufacturer->name|upper} {$s->goods->name}
+                </td>
+                <td>
+					{if strip_tags($s->text)}{strip_tags($s->text)|noescape|striptags|truncate:50}{else}<i>není</i>{/if}
+                </td>
+                <td style="{if $s->border}border:3px solid {$s->border|noescape}; border-radius: 3px;{/if} {if $s->bgcolor}background-color:{$s->bgcolor|noescape};{/if} {if $s->color}color:{$s->color|noescape};{/if}">
+					{if $s->border}okraj{/if}
+					{if $s->bgcolor}pozadí{/if}
+					{if $s->color}písmo{/if}
+                </td>
+                <td>
+                    {$s->created|date:'j.n.Y H:i'}
+                </td>
+				<td>
+					{if $s->start}{$s->start|date:'j.n.Y H:i'}{else}<i>neomezeno</i>{/if}
+				</td>
+				<td>
+					{if $s->end}{$s->end|date:'j.n.Y H:i'}{else}<i>neomezeno</i>{/if}
+				</td>
+				<td {if $s->enable}style="background: lightgreen"{/if}>
+					{if $s->enable}Aktivní{else}Neaktivní{/if}
+				</td>
+				<td>
+                    <a n:href="edit $s->id" class="btn btn-warning">Upravit</a>
+                    <a n:href="delete $s->id" class="btn btn-danger">Smazat</a>
+                </td>
+            </tr>
+            {/foreach}
+        </tbody>
+    </table>
+{else}
+    <p>Žádné akce.</p>
+{/if}
+
+
+{/block}

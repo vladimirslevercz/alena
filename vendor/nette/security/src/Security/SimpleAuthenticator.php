@@ -49,11 +49,11 @@ class SimpleAuthenticator extends Nette\Object implements IAuthenticator
 				if ((string) $pass === (string) $password) {
 					return new Identity($name, isset($this->usersRoles[$name]) ? $this->usersRoles[$name] : NULL);
 				} else {
-					throw new AuthenticationException('Invalid password.', self::INVALID_CREDENTIAL);
+					throw new AuthenticationException('Špaené heslo.', self::INVALID_CREDENTIAL);
 				}
 			}
 		}
-		throw new AuthenticationException("User '$username' not found.", self::IDENTITY_NOT_FOUND);
+		throw new AuthenticationException("Uživatel '$username' nebyl nalezen.", self::IDENTITY_NOT_FOUND);
 	}
 
 }

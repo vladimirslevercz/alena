@@ -1,0 +1,65 @@
+{block jumbotron}
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="container jumbotron-orange">
+		<h1 n:block="title">Akce</h1>
+	</div>
+{/block}
+
+{block content}
+	<h1>Vybrané akční zboží</h1>
+	{$text|noescape}
+	{if count($sales)}
+		<hr />
+		<div n:foreach="$sales as $sale" class="col-lg-6 col-md-8 col-sm-12">
+			<div class="container-fluid sale-item" style="{if $sale->bgcolor}background-color:{$sale->bgcolor|noescape};{/if}{if $sale->color}color:{$sale->color|noescape};{/if}{if $sale->border}border-color:{$sale->border|noescape};{/if}">
+				<a n:href="Goods:show $sale->goods->id" class="sale-photo">
+					<img src="{$basePath}/content/photo/{foreach $sale->goods->related('photo')->limit(1) as $photo}{$photo}{/foreach}.big.jpg" /><br />
+					Detail zboží
+				</a>
+				<span n:if="$sale->good->price && $sale->good->showPrice" class="main-price pull-right" style="text-align: center">
+					<span class="including-DPH" style="box-shadow: 1px 1px 5px rgba(0,0,0,0.3);"> {$sale->goods->price} Kč</span><br />
+					<span style="font-size: smaller">včetně DPH</span>
+				</span>
+				<h4>{$sale->goods->name}</h4>
+				{if $sale->text}{$sale->text|noescape}{else}{$sale->goods->description|noescape}{/if}
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	{else}
+		<hr />
+		<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
+			<p>Je nám líto, ale aktuálně neprobíhají žádné akce.</p>
+
+			<p>Můžete se podívat do našeho <a n:href="Catalog">katalogu</a>.</p>
+		</div>
+		<div class="clearfix"></div>
+		<hr />
+
+		<div class="clearfix"></div>
+		<div class="goods-similar">
+			<div class="container">
+				<span class="recommended-heading">Doporučujeme</span>
+			</div>
+			<div class="clearfix"></div>
+
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="text-align: left">
+				<img src="{$basePath}/img/klarka.png" style="height: 130px"/>
+			</div>
+			<div id="mainRecommended">
+				<a n:foreach="$goodsRecommended as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom: 10px;">
+						<div
+								class="goods-similar-item"
+								style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
+						>
+						</div>
+						<div class="goods-similar-name">{$good->name}</div>
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+	{/if}
+
+{/block}

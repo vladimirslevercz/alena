@@ -10,7 +10,7 @@ use App\Model\Category;
 use Nette\Database\Context;
 
 /**
- * Homepage presenter.
+ * Article presenter.
  */
 class ArticlePresenter extends BasePresenter
 {

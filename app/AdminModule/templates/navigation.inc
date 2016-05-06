@@ -24,6 +24,7 @@
 						<li><a n:href="Manufacturer:default">Výrobci</a></li>
 						<li><a n:href="Category:default">Kategorie</a></li>
 						<li><a n:href="Goods:default">Výrobky</a></li>
+						<li><a n:href="Sale:default">Akce</a></li>
 					</ul>
 				</li>
 

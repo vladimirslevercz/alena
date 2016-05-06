@@ -35,6 +35,13 @@
 			<div class="clearfix"></div>
 		</div>
 		<hr />
+		{foreach $good->related('sale') as $sale}
+			{first}<h3><strong>Probíhá akce</strong></h3>{/first}
+			<div n:if="$sale->text" class="sale-item-goods" style="{if $sale->bgcolor}background-color:{$sale->bgcolor|noescape};{/if}{if $sale->color}color:{$sale->color|noescape};{/if}{if $sale->border}border-color:{$sale->border|noescape};{/if}">
+				{$sale->text|noescape}
+			</div>
+			{last}<hr />{/last}
+		{/foreach}
 		<div class="good-description">
 			{$good->description|noescape}
 		</div>

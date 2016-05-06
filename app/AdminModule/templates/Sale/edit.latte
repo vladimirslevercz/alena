@@ -1,0 +1,45 @@
+{block content}
+	<h1>Akce</h1>
+	<a n:href="default" class="btn btn-default pull-right">Zpět na všechny akce</a>
+
+	<h2 n:block=title>Upravit akční nabídku</h2>
+
+	<p>Upravujete akční nabídku výrobku <strong>{$sale->goods->manufacturer->name|upper} {$sale->goods->name}</strong></p>
+
+    {control saleForm}
+
+	<button class="btn btn-default pull-right" id="reset-color">Resetovat barvy</button>
+    <hr />
+	<a n:href="default" class="btn btn-default pull-right">Zrušit</a>
+
+	<div id="example" class="col-lg-4 col-md-6 col-sm-8 col-xs-12" style="border:3px solid transparent; border-radius: 3px; "><h2>vzor</h2>Vzor.<br/>Takhle by nějak mohl vypadat popis výrobku</div>
+	<div class="clearfix"></div>
+	<script>
+		$(document).on('ready', function() {
+			$("#example").css('color', $("#frm-saleForm-color").val());
+			$("#example").css('background-color', $("#frm-saleForm-bgcolor").val());
+			$("#example").css('border-color', $("#frm-saleForm-border").val());
+
+			$("#frm-saleForm-color").on('input', function() {
+				$("#example").css('color', $(this).val());
+			});
+			$("#frm-saleForm-bgcolor").on('input', function() {
+				$("#example").css('background-color', $(this).val());
+			});
+			$("#frm-saleForm-border").on('input', function() {
+				$("#example").css('border-color', $(this).val());
+			});
+
+			$('#reset-color').on('click', function() {
+				$("#frm-saleForm-color").val('#333333');
+				$("#frm-saleForm-bgcolor").val('#FFFFFF');
+				$("#frm-saleForm-border").val('#FFFFFF');
+				$("#example").css('color', $("#frm-saleForm-color").val());
+				$("#example").css('background-color', $("#frm-saleForm-bgcolor").val());
+				$("#example").css('border-color', $("#frm-saleForm-border").val());
+			});
+		});
+
+	</script>
+
+{/block}
