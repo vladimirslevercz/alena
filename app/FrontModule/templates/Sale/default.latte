@@ -30,7 +30,7 @@
 		<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
 			<p>Je nám líto, ale aktuálně neprobíhají žádné akce.</p>
 
-			<p>Můžete se podívat do našeho <a n:href="Catalog">katalogu</a>.</p>
+			<p>Můžete se podívat do našeho <a n:href="Catalog:default">katalogu</a>.</p>
 		</div>
 		<div class="clearfix"></div>
 		<hr />
@@ -61,5 +61,49 @@
 		</div>
 
 	{/if}
+
+{/block}
+
+
+{block style}
+	<style>
+		div#mainRecommended {
+			overflow-x: auto;
+			white-space: nowrap;
+		}
+		div#mainRecommended [class*="col"], /* TWBS v3 */
+		div#mainRecommended [class*="span"] {  /* TWBS v2 */
+			display: inline-block;
+			float: none; /* Very important */
+		}
+	</style>
+{/block}
+
+{block scripts}
+	{include #parent}
+	<script>
+		$(document).ready( function () {
+			play();
+		});
+
+		function play() {
+			var w = getInnerWidth($("#mainRecommended"));
+			$("#mainRecommended").stop().animate({
+				scrollLeft: w
+			}, '10000', 'swing')
+		};
+		function rewind() {
+			$("#mainRecommended").stop().animate({
+				scrollLeft: 0
+			}, '500', 'swing', function () {
+
+			});
+		};
+
+		function getInnerWidth(element) {
+			return element[0].scrollWidth;
+		}
+
+	</script>
 
 {/block}
