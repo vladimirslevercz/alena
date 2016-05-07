@@ -48,6 +48,9 @@ class SalePresenter extends BasePresenter
 		$defaults['start'] = new \DateTime($sale->start);
 		$defaults['start'] = $defaults['start']->format('Y-m-d\TH:i:s');
 
+		// neomezeny?
+		$defaults['unlimited'] = !((bool)$defaults['end']);
+
 		$defaults['end'] = new \DateTime($sale->end);
 		$defaults['end'] = $defaults['end']->format('Y-m-d\TH:i:s');
 
@@ -63,12 +66,15 @@ class SalePresenter extends BasePresenter
 			->setAttribute('class', 'tinyMCE');
 
 		$form->addText('color', 'Barva písma')
+			->addRule($form::PATTERN, 'Barva písma je ve špatném formátu, použijte #RRGGBB', '(\#[0-9A-Fa-f]{6})?')
 			->setAttribute('type', 'color');
 
 		$form->addText('bgcolor', 'Barva pozadí')
+			->addRule($form::PATTERN, 'Barva pozadí je ve špatném formátu, použijte #RRGGBB', '(\#[0-9A-Fa-f]{6})?')
 			->setAttribute('type', 'color');
 
 		$form->addText('border', 'Barva ohraničení')
+			->addRule($form::PATTERN, 'Barva ohraničení je ve špatném formátu, použijte #RRGGBB', '(\#[0-9A-Fa-f]{6})?')
 			->setAttribute('type', 'color');
 
 		$form->addText('start', 'Počátek akce')
@@ -77,14 +83,30 @@ class SalePresenter extends BasePresenter
 		$form->addText('end', 'Konec akce')
 			->setAttribute('type', 'datetime-local');
 
+		$form->addCheckbox('unlimited', 'Neomezená platnost');
+
 		$form->addCheckbox('enable', 'Aktivní');
 
 		$form->addSubmit('save', 'Uložit')
 			->setAttribute('class', 'btn btn-primary');
 
+		$form->onValidate[] = array($this, 'saleFormValidate');
 		$form->onSuccess[] = array($this, 'saleFormSucceeded');
 
 		return $form;
+	}
+
+	public function saleFormValidate(UI\Form $form)
+	{
+		$values = $form->getValues();
+
+		if (!$values['unlimited']) {
+			$start = new \DateTime($values['start']);
+			$end = new \DateTime($values['end']);
+			if ($start > $end) {
+				$form->addError('Začátek akce musí být dříve než její konec. Opravte data počátku nebo konce a nebo dejte akci neomezenou.');
+			}
+		}
 	}
 
 
@@ -94,6 +116,10 @@ class SalePresenter extends BasePresenter
 		if (!$sale) {
 			$this->error('Data nebyla nalezena v databázi.', '404');
 		} else {
+			$update = $values;
+			$update['end'] = $values['unlimited'] ? null : $values['end'];
+			unset($update['unlimited']);
+
 			$sale->update($values);
 		}
 		$this->flashMessage('Změny uloženy.', 'success');
@@ -103,7 +129,16 @@ class SalePresenter extends BasePresenter
 
 	public function actionCreate($id) {
 		if ($good = $this->goods->get($id)) {
-			$saleId = $this->sale->insert(['goods_id' => $id, 'enable' => 0]);
+			$saleId = $this->sale->insert(
+				[
+					'goods_id' => $id,
+					'enable' => 0,
+					'color' => '#333333',
+					'bgcolor' => '#FFFFF8',
+					'border' => '#FFFF33',
+					'start' => new \DateTime('now'),
+				]
+			);
 			$this->flashMessage('Akce k výrobku '. $good->manufacturer->name .' '. $good->name .' byla vytvořena.', 'success');
 			$this->redirect('edit', $saleId);
 		} else {
