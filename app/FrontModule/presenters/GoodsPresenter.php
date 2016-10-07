@@ -61,5 +61,17 @@ class GoodsPresenter extends BasePresenter
 	{
 		$this->template->good = $this->good;
 		$this->template->goodsSimilar = $this->goodsSimilar;
+
+		$og = array();
+		foreach ($this->good->related('photo')->limit(1) as $image) {
+			$imageinfo = getimagesize("../www/content/photo/" . $image->id . ".big.jpg");
+			$og['image:width'] = $imageinfo[0];
+			$og['image:height'] = $imageinfo[1];
+			$og['image:type'] = $imageinfo['mime'];
+		}
+		$og['title'] = $this->good->name . " - alena.cz";
+		$og['description'] = substr(strip_tags($this->good->description), 0, 140) . "...";
+
+		$this->template->og = $og;
 	}
 }

@@ -25,5 +25,8 @@ abstract class BasePresenter extends Nette\Application\UI\Presenter
 	{
 		$this->template->articles = $this->article->where('menu IS NOT NULL');
 		$this->template->DPH = self::DPH;
+
+		// Sets information for facebook
+		$this->template->og = array();
 	}
 }

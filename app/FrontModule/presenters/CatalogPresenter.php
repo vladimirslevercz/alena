@@ -58,6 +58,7 @@ class CatalogPresenter extends BasePresenter
 		$this->template->goodsRecommended = $this->good->where('recommended != 0')->order('id DESC')->limit(6);
 		$this->template->goodsOther = array();
 		$this->template->filterName = 'Doporučené';
+		$this->template->og = ['title' => 'Doporučené - alena.cz'];
 	}
 
 	public function renderFilter($categoryId = null, $manufacturerId = null)
@@ -76,6 +77,10 @@ class CatalogPresenter extends BasePresenter
 			} else {
 				$parentCategory = $category->parent ? $this->category->createSelectionInstance()->get($category->parent) : null;
 				$this->template->filterName = ($parentCategory ? $parentCategory->name . ' - ' : '') . $category->name . " od " . $manufacturer->name;
+				$this->template->og = [
+					'title' => $this->template->filterName . ' - alena.cz',
+					'description' => strip_tags($category->description)
+				];
 
 				$in = $category . ',';
 
@@ -108,6 +113,10 @@ class CatalogPresenter extends BasePresenter
 			} else {
 				$parentCategory = $category->parent ? $this->category->createSelectionInstance()->get($category->parent) : null;
 				$this->template->filterName = ($parentCategory ? $parentCategory->name . ' - ' : '') . $category->name;
+				$this->template->og = [
+					'title' => $this->template->filterName . ' - alena.cz',
+					'description' => strip_tags($category->description)
+				];
 
 				$in = $category . ',';
 
@@ -143,6 +152,10 @@ class CatalogPresenter extends BasePresenter
 				$this->template->goodsRecommended = $this->good->where('manufacturer_id = ? AND recommended != 0', $manufacturerId)->order('id DESC');
 				$this->template->goodsOther = $this->good->createSelectionInstance()->where('manufacturer_id = ? AND recommended = 0', $manufacturerId)->order('id DESC');
 				$this->template->selectedManufacturer = $manufacturerId;
+				$this->template->og = [
+					'title' => $this->template->filterName . ' - alena.cz',
+					'description' => strip_tags($manufacturer->description)
+				];
 			}
 		} else {
 			$this->redirect("default");

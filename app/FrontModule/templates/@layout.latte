@@ -18,13 +18,13 @@
 	<meta name="author" content="Alena Seidlová-Randová">
 
 	<!-- FACEBOOK -->
-	<meta property="og:image" content="http://alena.cz/img/loga/alena.png">
-	<meta property="og:image:type" content="image/png">
-	<meta property="og:image:width" content="299">
-	<meta property="og:image:height" content="104">
-	<meta property="og:url" content="http://alena.cz">
-	<meta property="og:title" content="Pracovní oděvy a ochranné pomůcky Alena">
-	<meta property="og:description" content="Ryze česká rodinná firma Aleny Seidlové Randové založená v roce 1993 zabývající se výrobou a prodejem širokého sortimentu jak pracovních oděvů, tak oděvů pro volný čas, dále pak ochranných pomůcek a obuvi.">
+	<meta property="og:image" content="{if isset($og['image'])}{$og['image']}{else}http://alena.cz/img/loga/alena.png{/if}">
+	<meta property="og:image:type" content="{if isset($og['image:type'])}{$og['image:type']}{else}image/png{/if}">
+	<meta property="og:image:width" content="{if isset($og['image:width'])}{$og['image:width']}{else}299{/if}">
+	<meta property="og:image:height" content="{if isset($og['image:height'])}{$og['image:height']}{else}104{/if}">
+	{*<meta property="og:url" content="{if isset($og['url'])}{$og['url']}{else}http://alena.cz{/if}">*}
+	<meta property="og:title" content="{if isset($og['title'])}{$og['title']}{else}Pracovní oděvy a ochranné pomůcky Alena{/if}">
+	<meta property="og:description" content="{if isset($og['description'])}{$og['description']}{else}Ryze česká rodinná firma Aleny Seidlové Randové založená v roce 1993 zabývající se výrobou a prodejem širokého sortimentu jak pracovních oděvů, tak oděvů pro volný čas, dále pak ochranných pomůcek a obuvi.{/if}">
 
 	<title>{ifset title}{include title|striptags} | {/ifset}Alena</title>
 
