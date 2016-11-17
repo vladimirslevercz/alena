@@ -70,15 +70,15 @@
 	function changePicture(elid) {
 		el = $('#'+elid);
 		var bgs = el.data('photos').split(',');
-		el.fadeTo(300, 0.01)
+		el.fadeTo(500, 0.01)
 			.fadeTo(5, 0.0)
 			.animate({ 'background-color' : 'rgba(255,255,255,0)' }, 1, 'swing', function() {
 				$(this).css('background-image', 'url(\'' + bgs[Math.floor(Math.random() * bgs.length)] + '\')' );
 			})
-			.delay(300)
-			.fadeTo(300, 1.0,
+			.delay(500)
+			.fadeTo(500, 1.0,
 				function () {
-					setTimeout("changePicture('"+ $(this).attr('id') +"')", Math.random()*10000 + 5000);
+					setTimeout("changePicture('"+ $(this).attr('id') +"')", Math.random()*30000 + 5000);
 			});
 	}
 	$(document).ready( function() {
