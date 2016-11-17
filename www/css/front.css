@@ -100,6 +100,10 @@ li {
     height: 100px;
 }
 
+.goods-similar-name {
+    overflow: hidden;
+}
+
 .goods-name {
     position: absolute;
     bottom: 1px; left: 16px;
@@ -243,6 +247,15 @@ a {
     padding: 10px 10px 10px 10px;
     border-bottom: 2px solid transparent;
     transition: border 0.3s, background 0.15s;
+}
+
+@media (max-width: 768px) {
+    .top-menu a {
+        line-height: 40px;
+    }
+    .top-menu .sale-nav-link {
+        border-bottom: none;
+    }
 }
 
 .top-menu a:hover {

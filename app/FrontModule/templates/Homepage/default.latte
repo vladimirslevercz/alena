@@ -1,6 +1,6 @@
 {block content}
 
-	<div class="col-lg-offset-2 col-lg-5 col-md-offset-1 col-md-7 col-xs-9" style="padding:20px 0 20px 0;">
+	<div class="col-lg-offset-2 col-lg-5 col-md-offset-1 col-md-7 col-xs-12" style="padding:20px 0 20px 0;">
 		<h2>Pracovní oděvy, ochranné pomůcky Alena</h2>
 		<div style="text-align: justify">
 			<p>Vítáme Vás na stránkách ryze české rodinné firmy založené v roce 1993 zabývající se výrobou a prodejem širokého sortimentu jak <b>pracovních oděvů</b>, tak pro volný čas, dále pak <b>ochranných pomůcek</b> a <b>obuvi</b>.</p>
@@ -8,9 +8,11 @@
 			<p>Tyto webové stránky obsahují vybrané nejvíce prodávané produkty.  Náš sortiment je neustále doplňován. Jsme však schopni dodat i řadu výrobků zde neuvedených.</p>
 			<p>Zakládáme si na individuálním přístupu k zákazníkům.  Kontaktujte nás nebo navštivte naše prodejny. Rádi se Vám budeme věnovat.</p>
 		</div>
+		<hr />
+		<a n:href="Catalog:default" class="btn btn-default">Přejít do katalogu</a>
 	</div>
 
-	<div class="col-lg-offset-1 col-lg-2 col-md-2 col-xs-3" style="padding:20px 0 20px 0;">
+	<div class="col-lg-offset-1 col-lg-2 col-md-2 col-xs-3 hidden-sm hidden-xs" style="padding:20px 0 20px 0;">
 		<img src="{$basePath}/img/pandulak.png" style="width: 100%" />
 
 	</div>
@@ -29,11 +31,11 @@
 			<a n:foreach="$goodsRecommended as $good" n:href=":Front:Goods:show $good->id" class="goods-item-parent">
 				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom: 10px;">
 					<div
-							class="goods-similar-item"
-							style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
+						class="goods-similar-item"
+						style="{foreach $good->related('photo')->limit(1) as $photo}background-image: url('{$basePath}/content/photo/{$photo}.small.jpg');{/foreach}"
 					>
 					</div>
-					<div class="goods-similar-name">{$good->name}</div>
+					<div class="goods-similar-name hidden-sm hidden-xs">{$good->name}</div>
 				</div>
 			</a>
 		</div>
@@ -63,23 +65,16 @@
 {block scripts}
 {include #parent}
 <script>
-	$(document).ready( function () {
+	$(document).ready( function()
+		{
 			play();
+
 	});
 
 	function play() {
-		var w = getInnerWidth($("#mainRecommended"));
-		$("#mainRecommended").stop().animate({
-			scrollLeft: w
-		}, '10000', 'swing')
-	};
-	function rewind() {
-		$("#mainRecommended").stop().animate({
-			scrollLeft: 0
-		}, '500', 'swing', function () {
-
-		});
-	};
+		var w = getInnerWidth($("#mainRecommended .goods-similar-item"));
+		$('#mainRecommended').animate({ scrollLeft: '+=' + w }, 3000, play).delay('2000');
+	}
 
 	function getInnerWidth(element) {
 		return element[0].scrollWidth;

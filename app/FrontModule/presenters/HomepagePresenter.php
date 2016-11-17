@@ -22,7 +22,7 @@ class HomepagePresenter extends BasePresenter
 
 	public function renderDefault()
 	{
-		$this->template->goodsRecommended = $this->goods->where('recommended != 0')->order('id DESC')->limit(6);
+		$this->template->goodsRecommended = $this->goods->where('recommended != 0')->order('id DESC')->limit(12);
 	}
 
 }
